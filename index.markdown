@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+<div class="hero">
+  <h1>HexdDesign</h1>
+  <p class="hero-sub">Graphic design & Arch Linux ricing</p>
+  <a href="/projects" class="hero-btn">View Projects</a>
+</div>
