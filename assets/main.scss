@@ -304,3 +304,37 @@ a:hover { color: #fff !important; }
   color: #7aa2f7;
   font-size: 0.9rem;
 }
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-copy {
+  color: #555;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links a {
+  color: #555 !important;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #7aa2f7 !important;
+}
