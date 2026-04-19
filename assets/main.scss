@@ -61,16 +61,28 @@ a:hover { color: #fff !important; }
   font-size: 0.85rem;
 }
 
-.hero-img-wrap {
+.hero-banner {
+  position: relative;
   width: 100%;
   max-width: 900px;
-  margin: 0 auto 40px;
+  margin: 0 auto;
 }
 
 .hero-img {
   width: 100%;
-  border: 1px solid #333;
   display: block;
+  border: 1px solid #333;
+  filter: brightness(0.4);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 20px;
 }
 
 .hero-btn:hover {
