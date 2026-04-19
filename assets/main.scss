@@ -35,7 +35,7 @@ a:hover { color: #fff !important; }
 
 .hero {
   text-align: center;
-  padding: 0;
+  padding: 80px 20px;
 }
 
 .hero h1 {
@@ -88,6 +88,13 @@ a:hover { color: #fff !important; }
 .hero-btn:hover {
   background-color: #7aa2f7;
   color: #0f0f0f !important;
+}
+
+.hero-icon {
+  width: 120px;
+  height: auto;
+  margin-bottom: 24px;
+  opacity: 0.9;
 }
 
 .project-grid {
