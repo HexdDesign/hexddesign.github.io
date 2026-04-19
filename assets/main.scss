@@ -119,3 +119,76 @@ a:hover { color: #fff !important; }
 .project-card h3 {
   color: #7aa2f7;
 }
+
+.project-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.project-category {
+  color: #555;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.project-title {
+  font-size: 2rem;
+  color: #e0e0e0;
+  margin-bottom: 12px;
+}
+
+.project-desc {
+  color: #888;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.project-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.tag {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #7aa2f7;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.project-cover {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.project-cover img {
+  width: 100%;
+  border: 1px solid #333;
+}
+
+.project-body {
+  color: #ccc;
+  line-height: 1.8;
+  margin-bottom: 48px;
+}
+
+.project-nav {
+  border-top: 1px solid #333;
+  padding-top: 24px;
+}
+
+.project-nav a {
+  color: #555 !important;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.project-nav a:hover {
+  color: #7aa2f7 !important;
+}

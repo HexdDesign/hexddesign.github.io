@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: project
 title: "Hyprland Rice"
 description: "Minimal Hyprland setup with custom Waybar."
 category: rice
+tags: [Hyprland, Waybar, Arch]
+cover: /assets/images/rice-one.jpg
 ---
 
-Full rice details go here. Screenshots, dotfiles link, etc.
+Write about the rice here. Window manager, bar, colors, fonts, dotfiles link.
