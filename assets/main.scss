@@ -1,0 +1,35 @@
+---
+---
+@import "minima";
+
+:root {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --text: #e0e0e0;
+  --accent: #7aa2f7;
+  --muted: #555;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+a { color: var(--accent); }
+a:hover { color: #fff; }
+
+.site-header {
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--muted);
+}
+
+.site-footer {
+  background-color: var(--surface);
+  border-top: 1px solid var(--muted);
+  color: var(--muted);
+}
+
+.post-list li {
+  border-bottom: 1px solid var(--surface);
+}
