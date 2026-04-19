@@ -61,6 +61,18 @@ a:hover { color: #fff !important; }
   font-size: 0.85rem;
 }
 
+.hero-img-wrap {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+.hero-img {
+  width: 100%;
+  border: 1px solid #333;
+  display: block;
+}
+
 .hero-btn:hover {
   background-color: #7aa2f7;
   color: #0f0f0f !important;
