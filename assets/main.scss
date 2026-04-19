@@ -95,3 +95,27 @@ a:hover { color: #fff !important; }
   background: #222;
   border: 1px dashed #444;
 }
+
+.section-title {
+  color: #7aa2f7;
+  border-bottom: 1px solid #333;
+  padding-bottom: 8px;
+  margin: 48px 0 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.project-card {
+  text-decoration: none !important;
+  display: block;
+  transition: border-color 0.2s;
+}
+
+.project-card:hover {
+  border-color: #7aa2f7 !important;
+}
+
+.project-card h3 {
+  color: #7aa2f7;
+}
