@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div class="about-page">
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+  <h1 class="about-name">Amber</h1>
+  <p class="about-tagline">Graphic Designer & Front-End Creative</p>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+  <div class="about-bio">
+    <p>Amber is a graphic designer and front-end creative with a sharp eye for minimal, intentional design. An INTJ by nature, her work is driven by precision and a deep appreciation for systems — whether that's crafting visual identities or sculpting the perfect Arch Linux environment.</p>
+    <p>She splits her time between graphic design work and Linux ricing, treating both as the same discipline: everything should look exactly the way it's supposed to.</p>
+  </div>
 
-
-[jekyll-organization]: https://github.com/jekyll
+</div>

@@ -192,3 +192,84 @@ a:hover { color: #fff !important; }
 .project-nav a:hover {
   color: #7aa2f7 !important;
 }
+
+.about-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.about-name {
+  font-size: 2.5rem;
+  color: #7aa2f7;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.about-tagline {
+  color: #555;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.about-bio p {
+  color: #ccc;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+.contact-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: #7aa2f7;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.contact-sub {
+  color: #555;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #1a1a1a;
+  text-decoration: none !important;
+  transition: padding-left 0.2s;
+}
+
+.contact-item:hover {
+  padding-left: 8px;
+}
+
+.contact-label {
+  color: #555;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.contact-value {
+  color: #7aa2f7;
+  font-size: 0.9rem;
+}
