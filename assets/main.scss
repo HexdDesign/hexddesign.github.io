@@ -360,12 +360,6 @@ code, pre, .tag, .contact-label, .section-title, .hero-btn {
   padding: 16px 20px;
 }
 
-.header-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none !important;
-}
 
 .header-icon {
   width: 35px !important;
@@ -376,8 +370,16 @@ code, pre, .tag, .contact-label, .section-title, .hero-btn {
 }
 
 .header-title {
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Genos", sans-serif !important;
   color: #e0e0e0;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header-logo .header-title {
+  font-family: "Genos", sans-serif !important;
+  color: #e0e0e0 !important;
   font-size: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
