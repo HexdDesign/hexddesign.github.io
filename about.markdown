@@ -10,8 +10,8 @@ permalink: /about/
   <p class="about-tagline">Graphic Designer & Front-End Creative</p>
 
   <div class="about-bio">
-    <p>Amber is a graphic designer and front-end creative with a sharp eye for minimal, intentional design. An INTJ by nature, her work is driven by precision and a deep appreciation for systems — whether that's crafting visual identities or sculpting the perfect Arch Linux environment.</p>
-    <p>She splits her time between graphic design work and Linux ricing, treating both as the same discipline: everything should look exactly the way it's supposed to.</p>
+    <p>Amber is a graphic designer and front-end creative with a sharp eye for minimal, intentional design. Their work is driven by precision and a deep appreciation for systems — whether that's crafting visual identities or sculpting the perfect Arch Linux environment.</p>
+    <p>They split their time between graphic design work and Arch Linux ricing, treating both as the same discipline: everything should look exactly the way it's supposed to.</p>
   </div>
 
 </div>
