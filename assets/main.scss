@@ -1,7 +1,12 @@
 ---
 ---
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-@import minima;
+img {
+  max-width: 100%;
+}
 
 body {
   background-color: #0f0f0f !important;
