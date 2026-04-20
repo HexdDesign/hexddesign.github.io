@@ -30,7 +30,7 @@ permalink: /projects/
 
 <h2 class="section-title">Illustration</h2>
 <div class="project-grid">
-  {% assign design = site.projects | where: "category", "illustration" %}
+  {% assign illustration = site.projects | where: "category", "illustration" %}
   {% for project in illustration %}
   <a href="{{ project.url }}" class="project-card">
     <div class="project-img placeholder"></div>
