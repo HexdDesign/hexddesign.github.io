@@ -8,6 +8,7 @@ github_username: HexdDesign
   
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 collections:
   projects:
