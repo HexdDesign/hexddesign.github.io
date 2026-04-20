@@ -2,7 +2,7 @@
 layout: project
 title: "Digital"
 description: "Digital Illustrations"
-category: design
+category: illustration
 tags: [Illustrator, Drawing, Sketching]
 cover: /assets/images/design-one.jpg
 ---
