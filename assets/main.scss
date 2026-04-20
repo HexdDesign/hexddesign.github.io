@@ -404,18 +404,17 @@ code, pre, .tag, .contact-label, .section-title, .hero-btn {
 
 .header-title {
   font-family: "Genos", sans-serif !important;
-  color: #e0e0e0;
+  color: #e0e0e0 !important;
   font-size: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-.header-logo .header-title {
-  font-family: "Genos", sans-serif !important;
-  color: #e0e0e0 !important;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none !important;
 }
 
 .header-nav {
@@ -438,13 +437,4 @@ code, pre, .tag, .contact-label, .section-title, .hero-btn {
 
 div.hero h1 {
   font-family: 'JetBrains Mono', monospace !important;
-}
-
-.header-logo .header-title {
-  color: #e0e0e0 !important;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  gap: 10px;
-  align-items: center;
 }
