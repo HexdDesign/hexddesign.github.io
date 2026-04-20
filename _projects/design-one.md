@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Design Project One"
-description: "Branding and print work."
+description: "Branding"
 category: design
 tags: [Illustrator, Branding, Print]
 cover: /assets/images/design-one.jpg
