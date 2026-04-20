@@ -1,6 +1,39 @@
 ---
 ---
 
+@charset "utf-8";
+
+// Your overrides
+$base-font-family: 'Space Grotesk', sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+$spacing-unit:     30px;
+$text-color:       #e0e0e0;
+$background-color: #0f0f0f;
+$brand-color:      #7aa2f7;
+$grey-color:       #555;
+$grey-color-light: #333;
+$grey-color-dark:  #888;
+$content-width:    900px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+@import "minima/base";
+@import "minima/layout";
+@import "minima/syntax-highlighting";
+
+
 
 body {
   background-color: #0f0f0f !important;
