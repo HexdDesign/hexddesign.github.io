@@ -28,8 +28,8 @@ permalink: /projects/
 
 <h2 class="section-title">Arch Ricing</h2>
 <div class="project-grid">
-  {% assign rices = site.projects | where: "category", "rice" %}
-  {% for project in rices %}
+  {% assign rice = site.projects | where: "category", "rice" %}
+  {% for project in rice %}
   <a href="{{ project.url }}" class="project-card">
     {% if project.cover %}
     <div class="project-img" style="background-image: url('{{ project.cover }}')"></div>
