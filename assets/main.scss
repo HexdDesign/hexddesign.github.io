@@ -425,7 +425,12 @@ div.hero h1 {
 }
 
 
-.post-title {
+h1.post-title {
+  font-family: 'JetBrains Mono', monospace !important;
+  text-transform: uppercase;
+}
+
+h1.post-header {
   font-family: 'JetBrains Mono', monospace !important;
   text-transform: uppercase;
 }
