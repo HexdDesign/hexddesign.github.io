@@ -478,7 +478,7 @@ div.hero h1 {
 .project-img {
   background-size: cover;
   background-position: center;
-  height: 100px; 
+  height: 180px;
 }
 
 .project-gallery {
@@ -487,10 +487,9 @@ div.hero h1 {
   gap: 1rem;
   margin: 2rem 0;
 }
-
 .gallery-item img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  aspect-ratio: 1;
   object-fit: cover;
   display: block;
 }
