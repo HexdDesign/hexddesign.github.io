@@ -3,10 +3,6 @@ layout: project
 title: Illustration
 description: Digital Illustration
 category: illustration
+tags: [Illustration, Drawing, Sketching] 
 cover: /assets/images/illustration-one.jpg
-
-gallery:
-  - /assets/images/illustration-one.jpg
-  - /assets/images/illustration-two.jpg
-  - /assets/images/illustration-three.jpg
 ---
