@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: PROJECTS
 permalink: /projects/
 ---
 <h2 class="section-title">Graphic Design</h2>
