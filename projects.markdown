@@ -3,7 +3,6 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-
 <h2 class="section-title">Graphic Design</h2>
 <div class="project-grid">
   {% assign design = site.projects | where: "category", "design" %}
@@ -16,6 +15,13 @@ permalink: /projects/
     {% endif %}
     <h3>{{ project.title }}</h3>
     <p>{{ project.description }}</p>
+    {% if project.tags %}
+    <div class="project-tags">
+      {% for tag in project.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
   </a>
   {% endfor %}
 </div>
@@ -32,6 +38,13 @@ permalink: /projects/
     {% endif %}
     <h3>{{ project.title }}</h3>
     <p>{{ project.description }}</p>
+    {% if project.tags %}
+    <div class="project-tags">
+      {% for tag in project.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
   </a>
   {% endfor %}
 </div>
@@ -48,6 +61,13 @@ permalink: /projects/
     {% endif %}
     <h3>{{ project.title }}</h3>
     <p>{{ project.description }}</p>
+    {% if project.tags %}
+    <div class="project-tags">
+      {% for tag in project.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
   </a>
   {% endfor %}
 </div>
