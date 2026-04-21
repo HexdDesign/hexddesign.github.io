@@ -1,34 +1,13 @@
----
-layout: default
----
+<div class="project-body">
 
-<article class="project-page">
+  {{ content }}
 
-  <header class="project-header">
-    <p class="project-category">{{ page.category }}</p>
-    <h1 class="project-title">{{ page.title }}</h1>
-    <p class="project-desc">{{ page.description }}</p>
-    {% if page.tags %}
-    <div class="project-tags">
-      {% for tag in page.tags %}
-      <span class="tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
-  </header>
-
-  {% if page.cover %}
-  <div class="project-cover">
-    <img src="{{ page.cover }}" alt="{{ page.title }}">
+  {% if page.gallery %}
+  <div class="gallery">
+    {% for image in page.gallery %}
+      <img src="{{ image }}" alt="{{ page.title }}">
+    {% endfor %}
   </div>
   {% endif %}
 
-  <div class="project-body">
-    {{ content }}
-  </div>
-
-  <div class="project-nav">
-    <a href="/projects">← Back to Projects</a>
-  </div>
-
-</article>
+</div>
