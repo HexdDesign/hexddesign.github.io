@@ -2,7 +2,7 @@
 layout: project
 title: Ricing
 description: Arch Linux Ricing
-category: illustration
+category: programming
 tags: [linux, coding, css] 
 cover: /assets/images/illustration-one.jpg
 ---
