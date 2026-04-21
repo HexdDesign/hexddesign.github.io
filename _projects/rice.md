@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Ricing
+title: Rice
 description: Arch Linux Ricing
 category: programming
 tags: [linux, coding, css] 
