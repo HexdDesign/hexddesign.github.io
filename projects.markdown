@@ -29,12 +29,14 @@ permalink: /projects/
 </div>
 
 
-<h2 class="section-title">Illustration</h2>
-
+<h2 class="section-title">Illustrations</h2>
 <div class="project-grid">
-  <a href="/illustration/" class="project-card">
+  {% assign illustration = site.projects | where: "category", "illustration" %}
+  {% for project in illustration %}
+  <a href="{{ project.url }}" class="project-card">
     <div class="project-img placeholder"></div>
-    <h3>Illustration Collection</h3>
-    <p>Digital paintings, sketches, character art, and more.</p>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.description }}</p>
   </a>
+  {% endfor %}
 </div>
