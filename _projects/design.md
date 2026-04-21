@@ -1,12 +1,9 @@
 ---
 layout: project
-title: Graphic Design
-description: Graphic Design Work
+title: Design
+description: Graphic Design
 category: design
+tags: [Design, Graphics] 
 cover: /assets/images/illustration-one.jpg
-
-gallery:
-  - /assets/images/illustration-one.jpg
-  - /assets/images/illustration-two.jpg
-  - /assets/images/illustration-three.jpg
 ---
+
