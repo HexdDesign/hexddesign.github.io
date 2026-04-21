@@ -2,7 +2,7 @@
 layout: project
 title: Rice
 description: Arch Linux Ricing
-category: programming
-tags: [linux, coding, css] 
+category: rice
+tags: [linux, coding, programming] 
 cover: /assets/images/illustration-one.jpg
 ---
