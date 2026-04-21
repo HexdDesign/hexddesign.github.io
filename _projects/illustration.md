@@ -4,5 +4,5 @@ title: Illustration
 description: Digital Illustration
 category: illustration
 tags: [Illustration, Drawing, Sketching] 
-cover: /assets/images/illustration-one.jpg
+cover: /assets/images/17.png
 ---
