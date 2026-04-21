@@ -1,48 +1,40 @@
 ---
 layout: page
-title: Portfolio
+title: Work
 permalink: /projects/
 ---
 
-<section class="portfolio-hero">
-  <h1>Selected Work</h1>
-  <p>Design, UI, Linux customization, Illustration</p>
+<section class="work-header">
+  <h1>Work</h1>
+  <p>Graphic Design, Linux UI, Illustration</p>
 </section>
 
-<div class="filter-bar">
+<nav class="work-filters">
   <button onclick="filterSelection('all')">All</button>
-  <button onclick="filterSelection('design')">Graphic Design</button>
-  <button onclick="filterSelection('rice')">Arch Ricing</button>
+  <button onclick="filterSelection('design')">Design</button>
+  <button onclick="filterSelection('rice')">Ricing</button>
   <button onclick="filterSelection('illustration')">Illustration</button>
-</div>
+</nav>
 
-<div class="portfolio-grid">
-
+<div class="work-grid">
 {% for project in site.projects %}
-<a href="{{ project.url }}" class="portfolio-card filter-item {{ project.category }}">
-  
+<a href="{{ project.url }}" class="work-card filter-item {{ project.category }}">
   <img src="{{ project.cover }}" alt="{{ project.title }}">
-  
-  <div class="portfolio-info">
-    <span>{{ project.category }}</span>
+  <div class="meta">
     <h3>{{ project.title }}</h3>
-    <p>{{ project.description }}</p>
+    <span>{{ project.category }}</span>
   </div>
-
 </a>
 {% endfor %}
-
 </div>
 
 <script>
-function filterSelection(category) {
-  let cards = document.getElementsByClassName("filter-item");
-
-  for (let i = 0; i < cards.length; i++) {
-    cards[i].style.display =
-      (category === "all" || cards[i].classList.contains(category))
-      ? "block"
-      : "none";
-  }
+function filterSelection(category){
+ let cards=document.getElementsByClassName("filter-item");
+ for(let i=0;i<cards.length;i++){
+   cards[i].style.display=
+   (category==="all"||cards[i].classList.contains(category))
+   ? "block":"none";
+ }
 }
 </script>
