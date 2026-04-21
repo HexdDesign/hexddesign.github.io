@@ -8,6 +8,7 @@ tags: [Design, Graphics]
 cover: /assets/images/Hexd.png
 images:
   - /assets/images/Hexd.png
+  - /assets/images/kat.png
     
 ---
 
