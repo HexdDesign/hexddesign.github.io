@@ -1,13 +1,13 @@
-<div class="project-body">
-
-  {{ content }}
-
-  {% if page.gallery %}
-  <div class="gallery">
-    {% for image in page.gallery %}
-      <img src="{{ image }}" alt="{{ page.title }}">
-    {% endfor %}
+{% if page.images %}
+<div class="project-gallery">
+  {% for image in page.images %}
+  <div class="gallery-item">
+    <img src="{{ image }}" alt="{{ page.title }}">
   </div>
-  {% endif %}
-
+  {% endfor %}
 </div>
+{% elsif page.cover %}
+<div class="project-cover">
+  <img src="{{ page.cover }}" alt="{{ page.title }}">
+</div>
+{% endif %}
