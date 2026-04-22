@@ -64,7 +64,7 @@ cover: /assets/images/illustration-one.jpg
     <p>ENA Dream BBQ Theme with red, white, and green color palette</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="evangelion">
-    <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/EvangelionDesktop.png')"></div>
     <h3>Evangelion</h3>
     <p>Evangelion Theme with purple and green color palette</p>
   </div>
@@ -147,39 +147,126 @@ data-images='[
 "/assets/images/i3/BlueyellowCalcurse.png"
 ]'></div>
 
-<div class="gallery-data" data-name="brs" data-images='["/assets/images/brs-1.jpg","/assets/images/brs-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="brs" 
+data-images='[
+"/assets/images/brs-1.jpg","/assets/images/brs-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="celty" data-images='["/assets/images/celty-1.jpg","/assets/images/celty-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="celty" 
+data-images='[
+"/assets/images/celty-1.jpg","/assets/images/celty-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="chill" data-images='["/assets/images/chill-1.jpg","/assets/images/chill-2.jpg"]'></div>
+<div class="gallery-data"
+data-name="chill" 
+data-images='[
+"/assets/images/chill-1.jpg","/assets/images/chill-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="crimson" data-images='["/assets/images/crimson-1.jpg","/assets/images/crimson-2.jpg"]'></div>
+<div class="gallery-data"
+data-name="crimson" 
+data-images='[
+"/assets/images/crimson-1.jpg",
+"/assets/images/crimson-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="devilman" data-images='["/assets/images/devilman-1.jpg","/assets/images/devilman-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="devilman" 
+data-images='[
+"/assets/images/devilman-1.jpg",
+"/assets/images/devilman-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="digital-circus" data-images='["/assets/images/digital-circus-1.jpg","/assets/images/digital-circus-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="digital-circus" 
+data-images='[
+"/assets/images/digital-circus-1.jpg",
+"/assets/images/digital-circus-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="dracula" data-images='["/assets/images/dracula-1.jpg","/assets/images/dracula-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="dracula" 
+data-images='[
+"/assets/images/dracula-1.jpg",
+"/assets/images/dracula-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="ember-moon" data-images='["/assets/images/ember-moon-1.jpg","/assets/images/ember-moon-2.jpg"]'></div>
+<div class="gallery-data"
+data-name="ember-moon" 
+data-images='[
+"/assets/images/ember-moon-1.jpg",
+"/assets/images/ember-moon-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="ena" data-images='["/assets/images/ena-1.jpg","/assets/images/ena-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="ena" 
+data-images='[
+"/assets/images/ena-1.jpg",
+"/assets/images/ena-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="evangelion" data-images='["/assets/images/evangelion-1.jpg","/assets/images/evangelion-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="evangelion" 
+data-images='[
+"/assets/images/i3/EvangelionDesktop.png",
+"/assets/images/i3/EvangelionBtopE.png",
+"/assets/images/i3/EvangelionDunst.png",
+"/assets/images/i3/EvangelionKity4.png",
+"/assets/images/i3/EvangelionRofi1.png",
+"/assets/images/i3/EvangelionRofiOpen.png",
+"/assets/images/i3/EvangelionewwSidebar.png"
+]'></div>
 
-<div class="gallery-data" data-name="msi" data-images='["/assets/images/msi-1.jpg","/assets/images/msi-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="msi" 
+data-images='[
+"/assets/images/msi-1.jpg",
+"/assets/images/msi-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="n7-day" data-images='["/assets/images/n7-day-1.jpg","/assets/images/n7-day-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="n7-day" 
+data-images='[
+"/assets/images/n7-day-1.jpg",
+"/assets/images/n7-day-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="neon-violet" data-images='["/assets/images/neon-violet-1.jpg","/assets/images/neon-violet-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="neon-violet" 
+data-images='[
+"/assets/images/neon-violet-1.jpg",
+"/assets/images/neon-violet-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="nord" data-images='["/assets/images/nord-1.jpg","/assets/images/nord-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="nord" 
+data-images='[
+"/assets/images/nord-1.jpg",
+"/assets/images/nord-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="project-hail-mary" data-images='["/assets/images/project-hail-mary-1.jpg","/assets/images/project-hail-mary-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="project-hail-mary" 
+data-images='[
+"/assets/images/project-hail-mary-1.jpg",
+"/assets/images/project-hail-mary-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="purple-plastic" data-images='["/assets/images/purple-plastic-1.jpg","/assets/images/purple-plastic-2.jpg"]'></div>
+<div class="gallery-data" 
+ata-name="purple-plastic" 
+data-images='[
+"/assets/images/purple-plastic-1.jpg",
+"/assets/images/purple-plastic-2.jpg"
+]'></div>
 
-<div class="gallery-data" data-name="sakura-hunter" data-images='["/assets/images/sakura-hunter-1.jpg","/assets/images/sakura-hunter-2.jpg"]'></div>
+<div class="gallery-data" 
+data-name="sakura-hunter"
+data-images='[
+"/assets/images/sakura-hunter-1.jpg",
+"/assets/images/sakura-hunter-2.jpg"
+]'></div>
 
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
