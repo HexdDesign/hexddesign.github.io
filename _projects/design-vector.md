@@ -5,7 +5,7 @@ title: Vector
 description: Graphic Design
 category: design
 tags: [Design, Graphics, Vectors] 
-cover: /assets/images/sakura.png
+cover: /assets/images/cell.png
 images:
   - /assets/images/bubble.png
   - /assets/images/cell.png
