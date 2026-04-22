@@ -3,7 +3,7 @@ layout: project
 title: i3 Themes
 description: Arch Linux Ricing
 category: rice
-tags: [linux, coding, programming] 
+tags: [linux, coding, programming, ricing] 
 cover: /assets/images/illustration-one.jpg
 ---
 
