@@ -84,7 +84,7 @@ cover: /assets/images/themescroll2.gif
     <p>Neon Violet Anime Theme with a pink and purple neon color palette</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="nord">
-    <div class="project-img" style="background-image: url('/assets/images/i3/Nord.png')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/NordDesktop.png')"></div>
     <h3>Nord</h3>
     <p>Nord Anime theme with blue and grey muted tones</p>
   </div>
@@ -99,7 +99,7 @@ cover: /assets/images/themescroll2.gif
     <p>Purple Plastic Theme with vibrant purple tones</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="sakura-hunter">
-    <div class="project-img" style="background-image: url('/assets/images/i3/MonsterHunter.png')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/MonsterHunterDesktop.png')"></div>
     <h3>Sakura-Hunter</h3>
     <p>Sakura Hunter Monster Hunter Rise Theme with pastel sakura tones</p>
   </div>
