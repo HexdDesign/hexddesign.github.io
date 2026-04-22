@@ -7,7 +7,10 @@ layout: default
   <p class="hero-sub">Graphic Designer | Front End Creative</p>
   <br>
   <a href="/projects" class="hero-btn">View Projects</a>
+  <br><br>
 </div>
 
  
+
+
 
