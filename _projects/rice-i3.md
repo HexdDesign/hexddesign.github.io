@@ -14,7 +14,7 @@ cover: /assets/images/illustration-one.jpg
     <p>Arch Linux Theme with blue tones</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="blue-yellow">
-    <div class="project-img" style="background-image: url('/assets/images/rice-terminal.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/BlueyellowDesktop.png')"></div>
     <h3>Blue-Yellow</h3>
     <p>A Y2K Style Anime Theme with blue and yellow color theme</p>
   </div>
@@ -114,7 +114,7 @@ data-images='[
 "/assets/images/i3/ArchrainRofi.png",
 "/assets/images/i3/ArchrainRofiOpen.png",
 "/assets/images/i3/ArchrainVolume.png",
-"/assets/images/i3/Thunar.png",
+"/assets/images/i3/ArchrainThunar.png",
 "/assets/images/i3/ArchrainNetworks.png",
 "/assets/images/i3/ArchrainKitty.png",
 "/assets/images/i3/ArchrainGeany.png",
@@ -127,7 +127,25 @@ data-images='[
 ]'>
 </div>
 
-<div class="gallery-data" data-name="blue-yellow" data-images='["/assets/images/blue-yellow-1.jpg","/assets/images/blue-yellow-2.jpg"]'></div>
+<div class="gallery-data"
+data-name="blue-yellow" 
+data-images='[
+"/assets/images/i3/BlueyellowDesktop.png",
+"/assets/images/i3/BlueyellowRofi.png",
+"/assets/images/i3/BlueyellowRofiOpen.png",
+"/assets/images/i3/BlueYellowVolume.png",
+"/assets/images/i3/BlueyellowThunar.png",
+"/assets/images/i3/BlueyellowNetworks.png",
+"/assets/images/i3/BlueyellowKitty.png",
+"/assets/images/i3/BlueyellowGeany.png",
+"/assets/images/i3/BlueyellowFirefox.png",
+"/assets/images/i3/BlueyellowEwwSidebar.png",
+"/assets/images/i3/BlueyellowDunst.png",
+"/assets/images/i3/BlueyellowBtopE.png",
+"/assets/images/i3/BlueyellowBrightness.png",
+"/assets/images/i3/BlueyellowBluetooth.png",
+"/assets/images/i3/BlueyellowCalcurse.png"
+]'></div>
 
 <div class="gallery-data" data-name="brs" data-images='["/assets/images/brs-1.jpg","/assets/images/brs-2.jpg"]'></div>
 
