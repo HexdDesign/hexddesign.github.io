@@ -1,10 +1,10 @@
 ---
 
 layout: project
-title: Design
+title: Logo
 description: Graphic Design
 category: design
-tags: [Design, Graphics] 
+tags: [Design, Graphics, Logo, Branding] 
 cover: /assets/images/Hexd.png
 images:
   - /assets/images/Hexd.png
