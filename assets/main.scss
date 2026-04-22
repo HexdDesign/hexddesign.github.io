@@ -504,3 +504,88 @@ h1.post-header {
   object-fit: cover;
   display: block;
 }
+
+// ─── Gallery trigger cards ───────────────────────────────────────────────────
+
+.gallery-trigger {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+    transform: translateY(-3px);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+}
+
+.gallery-data {
+  display: none;
+}
+
+// ─── Lightbox ────────────────────────────────────────────────────────────────
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    display: flex;
+  }
+}
+
+.lightbox-img {
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: contain;
+  border: 1px solid #333;
+}
+
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+  position: fixed;
+  background: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 2.5rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 1rem;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #7aa2f7;
+  }
+}
+
+.lightbox-close {
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.lightbox-prev {
+  top: 50%;
+  left: 1.5rem;
+  transform: translateY(-50%);
+}
+
+.lightbox-next {
+  top: 50%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+}
+
+.lightbox-counter {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #555;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
