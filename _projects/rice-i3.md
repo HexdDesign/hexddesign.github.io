@@ -4,7 +4,7 @@ title: i3 Themes
 description: Arch Linux i3 Theme Switcher. Includes Archcraft Linux and i3 Windows Manager, Polybar, Rofi, Eww, GTK, Thunar, Kitty, Neofetch, Geany, Calcurse, Btop, Dunst, Picom, Feh, Starship, i3Lock Color, and Firefox. 
 category: rice
 tags: [linux, coding, programming, ricing] 
-cover: /assets/images/themescroll2.gif
+cover: /assets/images/themescroll3.gif
 ---
 
 <div class="project-grid">
