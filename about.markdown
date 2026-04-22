@@ -19,7 +19,7 @@ permalink: /about/
   </div>
 
 </div>
-
+ 
 
 
 
