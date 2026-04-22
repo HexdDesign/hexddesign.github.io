@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-
 <article class="project-page">
-
   <header class="project-header">
     <p class="project-category">{{ page.category }}</p>
     <h1 class="project-title">{{ page.title }}</h1>
@@ -16,8 +14,6 @@ layout: default
     </div>
     {% endif %}
   </header>
-
-
   
   {% if page.images %}
   <div class="project-gallery">
@@ -40,5 +36,72 @@ layout: default
   <div class="project-nav">
     <a href="/projects">← Back to Projects</a>
   </div>
-
 </article>
+
+<!-- Lightbox overlay -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">&times;</button>
+  <button class="lightbox-prev" id="lightbox-prev">&#8592;</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+  <button class="lightbox-next" id="lightbox-next">&#8594;</button>
+  <div class="lightbox-counter" id="lightbox-counter"></div>
+</div>
+
+<script>
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+  var counter = document.getElementById('lightbox-counter');
+  var currentImages = [];
+  var currentIndex = 0;
+
+  function openLightbox(images, index) {
+    currentImages = images;
+    currentIndex = index;
+    showImage();
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function showImage() {
+    lightboxImg.src = currentImages[currentIndex];
+    counter.textContent = (currentIndex + 1) + ' / ' + currentImages.length;
+  }
+
+  document.querySelectorAll('.gallery-trigger').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var name = card.dataset.gallery;
+      var dataEl = document.querySelector('.gallery-data[data-name="' + name + '"]');
+      if (!dataEl) return;
+      var images = JSON.parse(dataEl.dataset.images);
+      openLightbox(images, 0);
+    });
+  });
+
+  document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+
+  document.getElementById('lightbox-prev').addEventListener('click', function() {
+    currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+    showImage();
+  });
+
+  document.getElementById('lightbox-next').addEventListener('click', function() {
+    currentIndex = (currentIndex + 1) % currentImages.length;
+    showImage();
+  });
+
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (!lightbox.classList.contains('active')) return;
+    if (e.key === 'ArrowRight') { currentIndex = (currentIndex + 1) % currentImages.length; showImage(); }
+    if (e.key === 'ArrowLeft') { currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length; showImage(); }
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
