@@ -19,32 +19,32 @@ cover: /assets/images/themescroll.gif
     <p>A Y2K Style Anime Theme with blue and yellow color theme</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="brs">
-    <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/BRShooterDesktop.png')"></div>
     <h3>BRS (Black-Rock-Shooter)</h3>
     <p>Black Rock Shooter Anime Theme with blue and grey tones</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="celty">
-    <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/CeltyDesktop.png')"></div>
     <h3>Celty</h3>
     <p>Celty from Durarara Theme with monochrome color palette</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="chill">
-    <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/ChillDesktop.png')"></div>
     <h3>Chill</h3>
     <p>Chill Theme with anime background and chill bokeh vibes</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="crimson">
-    <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/CrimsonDesktop.png')"></div>
     <h3>Crimson</h3>
     <p>Crimson Anime Theme with red and black color palette</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="devilman">
-    <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/DevilmanDesktop.png')"></div>
     <h3>Devilman</h3>
     <p>Devilman Crybaby Anime Theme with red and black color palette</p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="digital-circus">
-    <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/i3/DigitalCircusDesktop.png')"></div>
     <h3>Digital Circus</h3>
     <p>The Amazing Digital Circus Theme with neon rainbow and primary color palette.</p>
   </div>
