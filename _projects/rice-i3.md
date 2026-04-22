@@ -18,6 +18,7 @@ cover: /assets/images/illustration-one.jpg
     <h3>Blue-Yellow</h3>
     <p>A Y2K Style Anime Theme with blue and yellow color theme</p>
   </div>
+    <div class="project-card">
     <div class="project-img" style="background-image: url('/assets/images/rice-desktop.jpg')"></div>
     <h3>BRS (Black-Rock-Shooter)</h3>
     <p>Black Rock Shooter Anime Theme with blue and grey tones</p>
