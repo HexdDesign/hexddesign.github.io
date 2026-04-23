@@ -223,7 +223,8 @@ code, pre, .tag, .contact-label, .section-title, .hero-btn {
   font-family: 'JetBrains Mono', monospace !important;
 }
 
-h1.post-title, h1.post-header {
+.post-title,
+.post-header h1 {
   font-family: "Audiowide", sans-serif;
   text-transform: uppercase;
 }
