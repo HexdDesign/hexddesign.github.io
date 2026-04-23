@@ -11,6 +11,3 @@ layout: default
 </div>
 
  
-
-
-
