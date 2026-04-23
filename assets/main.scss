@@ -416,7 +416,7 @@ h1.post-title, h1.post-header {
 .project-gallery-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
+  gap: 18px;
   margin: 2rem 0 3rem;
 }
 
@@ -425,12 +425,26 @@ h1.post-title, h1.post-header {
   min-width: 0 !important;
   flex: unset !important;
   display: block;
+  padding: 10px;
 }
 
 .project-gallery-grid .project-img {
-  height: 180px;
+  height: 135px;
+  border-radius: 4px;
 }
 
+.project-gallery-grid .project-card h3 {
+  margin: 10px 0 4px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.project-gallery-grid .project-card p {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: #777;
+}
 
 // ─── Lightbox ────────────────────────────────────────────────────────────────
 
