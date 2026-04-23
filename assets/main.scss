@@ -374,6 +374,8 @@ h1.post-title, h1.post-header {
   }
 }
 
+
+
 // ─── Project gallery (lightbox grid) ────────────────────────────────────────
 
 .project-gallery {
@@ -412,11 +414,23 @@ h1.post-title, h1.post-header {
 }
 
 .project-gallery-grid {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
-  margin: 2rem 0;
+  margin: 2rem 0 3rem;
 }
+
+.project-gallery-grid .project-card {
+  width: 100% !important;
+  min-width: 0 !important;
+  flex: unset !important;
+  display: block;
+}
+
+.project-gallery-grid .project-img {
+  height: 180px;
+}
+
 
 // ─── Lightbox ────────────────────────────────────────────────────────────────
 
