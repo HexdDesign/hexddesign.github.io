@@ -61,16 +61,16 @@ a:hover { color: #fff !important; }
   text-align: center;
   padding: 110px 20px 90px;
   align-items: center;
-}
 
-.hero h1 {
-  font-family: 'JetBrains Mono', monospace !important;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #00B1FF;
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  line-height: 1.1;
+  h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00B1FF;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
 }
 
 .hero-sub { 
@@ -121,7 +121,7 @@ a:hover { color: #fff !important; }
 }
 
 .hero-img-icon {
-  width: 600px; 
+  width: 400px; 
   height: auto;
   margin-bottom: 45px; 
   opacity: 0.9;
