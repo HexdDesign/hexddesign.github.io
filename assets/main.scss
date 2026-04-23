@@ -1,17 +1,23 @@
 ---
 ---
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 body {
   background-color: #0f0f0f !important;
   color: #e0e0e0 !important;
   font-family: 'Space Grotesk', sans-serif !important;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -251,38 +257,82 @@ h1.post-title, h1.post-header {
   overflow-x: auto;
   overflow-y: visible;
   gap: 24px;
-  padding: 12px 4px 18px;
+  padding: 14px 6px 22px;
   margin: 1.5rem 0 3rem;
   scroll-snap-type: x mandatory;
 }
 
-.project-grid {
-  position: relative;
+.project-grid::-webkit-scrollbar {
+  height: 4px;
 }
 
 .project-card {
+  flex: 0 0 260px;
   position: relative;
+  scroll-snap-align: start;
+
+  background: #151515;
+  border-radius: 10px;
+  padding: 10px;
+
+  text-decoration: none !important;
+  border: 1px solid #2a2a2a;
+
+  transition: transform 0.2s ease;
   z-index: 1;
-  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
 
+/* =========================================================
+   ✨ GRADIENT GLOW BORDER (HOVER)
+========================================================= */
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 12px;
+  padding: 1px;
+
+  background: linear-gradient(
+    135deg,
+    transparent,
+    transparent,
+    rgba(122, 162, 247, 0.8),
+    rgba(0, 255, 255, 0.5),
+    rgba(122, 162, 247, 0.8),
+    transparent
+  );
+
+  background-size: 300% 300%;
+  animation: borderGlow 6s linear infinite;
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+
+  z-index: -1;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.project-card:hover::before {
+  opacity: 1;
+}
+
+/* subtle lift */
 .project-card:hover {
-  z-index: 10;
   transform: translateY(-6px);
-  border-color: #7aa2f7 !important;
-  box-shadow: 0 12px 28px rgba(0,0,0,0.35);
 }
 
-.project-card:hover {
-  transform: translateY(-6px) scale(1.02);
+/* glow animation */
+@keyframes borderGlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-.project-img {
-  background-size: cover;
-  background-position: center;
-  height: 150px;
-  border-radius: 6px;
-}
 
 .project-tags {
   display: flex;
@@ -300,6 +350,13 @@ h1.post-title, h1.post-header {
   letter-spacing: 1px;
 }
 
+.project-img {
+  height: 150px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+}
+
 .project-card h3 {
   font-size: 1rem;
   margin: 10px 0 4px;
@@ -308,8 +365,8 @@ h1.post-title, h1.post-header {
 
 .project-card p {
   font-size: 0.82rem;
-  line-height: 1.4;
   color: #7d7d7d;
+  line-height: 1.4;
 }
 // ─── Project page ────────────────────────────────────────────────────────────
 
@@ -411,66 +468,88 @@ h1.post-title, h1.post-header {
 }
 
 .project-gallery-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 18px;
   margin: 2rem 0 3rem;
 }
 
 .project-gallery-grid .project-card {
-  width: 100% !important;
-  min-width: 0 !important;
-  flex: unset !important;
-  display: block;
+  width: 100%;
   padding: 10px;
+  background: #151515;
+  border-radius: 10px;
+  border: 1px solid #2a2a2a;
+
+  position: relative;
 }
 
-.project-gallery-grid .project-img {
-  height: 135px;
-  border-radius: 4px;
+/* reuse SAME glow system */
+.project-gallery-grid .project-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 12px;
+  padding: 1px;
+
+  background: linear-gradient(
+    135deg,
+    transparent,
+    rgba(122, 162, 247, 0.6),
+    rgba(255, 0, 255, 0.4),
+    rgba(0, 255, 255, 0.4),
+    rgba(122, 162, 247, 0.6),
+    transparent
+  );
+
+  background-size: 300% 300%;
+  animation: borderGlow 7s linear infinite;
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+
+  z-index: -1;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
 
-.project-gallery-grid .project-card h3 {
-  margin: 10px 0 4px;
-  font-size: 1rem;
-  line-height: 1.2;
-}
-
-.project-gallery-grid .project-card p {
-  margin: 0;
-  font-size: 0.82rem;
-  line-height: 1.35;
-  color: #777;
-}
-
-.project-gallery-grid .project-card {
-  transition: transform 0.18s ease, border-color 0.18s ease;
+.project-gallery-grid .project-card:hover::before {
+  opacity: 1;
 }
 
 .project-gallery-grid .project-card:hover {
   transform: translateY(-4px);
 }
 
-// ─── Lightbox ────────────────────────────────────────────────────────────────
+/* smaller images for grid view */
+.project-gallery-grid .project-img {
+  height: 120px;
+  border-radius: 6px;
+}
 
+// ─── Lightbox ────────────────────────────────────────────────────────────────
 .lightbox {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(0,0,0,0.92);
   z-index: 1000;
   align-items: center;
   justify-content: center;
+}
 
-  &.active {
-    display: flex;
-  }
+.lightbox.active {
+  display: flex;
 }
 
 .lightbox-img {
   max-width: 80vw;
   max-height: 80vh;
   object-fit: contain;
+  border-radius: 6px;
   border: 1px solid #333;
 }
 
