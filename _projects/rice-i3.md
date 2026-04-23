@@ -255,7 +255,7 @@ data-images='[
 ]'></div>
 
 <div class="gallery-data" 
-ata-name="purple-plastic" 
+data-name="purple-plastic" 
 data-images='[
 "/assets/images/purple-plastic-1.jpg",
 "/assets/images/purple-plastic-2.jpg"
