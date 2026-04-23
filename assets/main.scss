@@ -61,26 +61,12 @@ a:hover { color: #fff !important; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
-.hero-banner {
-  width: 100%;
-  max-width: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-img {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
+.hero-img-icon {
   display: block;
   margin: 0 auto;
-  object-fit: cover;
-  object-position: center;
 }
 
   h1 {
