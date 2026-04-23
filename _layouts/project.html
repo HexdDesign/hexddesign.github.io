@@ -14,12 +14,12 @@ layout: default
     </div>
     {% endif %}
   </header>
-  
+
   {% if page.images %}
   <div class="project-gallery">
     {% for image in page.images %}
     <div class="gallery-item">
-      <img src="{{ image }}" alt="{{ page.title }}">
+      <img src="{{ image }}" alt="{{ page.title }}" class="gallery-trigger" data-index="{{ forloop.index0 }}" style="cursor:pointer;">
     </div>
     {% endfor %}
   </div>
@@ -32,7 +32,6 @@ layout: default
   <div class="project-body">
     {{ content }}
   </div>
-
   <div class="project-nav">
     <a href="/projects">← Back to Projects</a>
   </div>
@@ -48,6 +47,7 @@ layout: default
 </div>
 
 <script>
+  var allImages = {{ page.images | jsonify }};
   var lightbox = document.getElementById('lightbox');
   var lightboxImg = document.getElementById('lightbox-img');
   var counter = document.getElementById('lightbox-counter');
@@ -72,13 +72,9 @@ layout: default
     counter.textContent = (currentIndex + 1) + ' / ' + currentImages.length;
   }
 
-  document.querySelectorAll('.gallery-trigger').forEach(function(card) {
-    card.addEventListener('click', function() {
-      var name = card.dataset.gallery;
-      var dataEl = document.querySelector('.gallery-data[data-name="' + name + '"]');
-      if (!dataEl) return;
-      var images = JSON.parse(dataEl.dataset.images);
-      openLightbox(images, 0);
+  document.querySelectorAll('.gallery-trigger').forEach(function(img) {
+    img.addEventListener('click', function() {
+      openLightbox(allImages, parseInt(img.dataset.index));
     });
   });
 
