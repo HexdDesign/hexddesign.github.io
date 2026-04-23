@@ -59,7 +59,9 @@ a:hover { color: #fff !important; }
 // ─── Hero ────────────────────────────────────────────────────────────────────
 .hero {
   text-align: center; 
-  padding: 110px 20px 90px; 
+  padding: 110px 20px 90px;
+  align-items: center;
+}
 
 h1 { 
   font-family: 'JetBrains Mono', monospace !important; 
@@ -122,8 +124,7 @@ div.hero h1 {
 }
 
 .hero-img-icon {
-  align-items: center;
-  width: 400px; 
+  width: 800px; 
   height: auto;
   margin-bottom: 45px; 
   opacity: 0.9;
