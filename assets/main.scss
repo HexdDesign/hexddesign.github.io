@@ -121,9 +121,10 @@ a:hover { color: #fff !important; }
 }
 
 .hero-img-icon {
-  width: 400px; 
+  display: inline-block;
+  width: 400px;
   height: auto;
-  margin-bottom: 45px; 
+  margin-bottom: 45px;
   opacity: 0.9;
 }
 
