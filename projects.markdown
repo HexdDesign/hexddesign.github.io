@@ -73,5 +73,3 @@ permalink: /projects/
 </div>
 
 
-
-
