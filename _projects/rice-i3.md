@@ -7,7 +7,7 @@ tags: [linux, coding, programming, ricing]
 cover: /assets/images/themescroll3.gif
 ---
 
-<div class="project-grid">
+<div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="arch-rain">
     <div class="project-img" style="background-image: url('/assets/images/i3/ArchrainDesktop.png')"></div>
     <h3>Arch-Rain</h3>
