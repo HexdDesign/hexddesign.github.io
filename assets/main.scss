@@ -57,10 +57,31 @@ a:hover { color: #fff !important; }
 }
 
 // ─── Hero ────────────────────────────────────────────────────────────────────
-
 .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 110px 20px 90px;
+}
+
+.hero-banner {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
+}
 
   h1 {
     font-family: 'JetBrains Mono', monospace !important;
@@ -102,19 +123,7 @@ div.hero h1 {
   }
 }
 
-.hero-banner {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-}
 
-.hero-img {
-  width: 100%;
-  display: block;
-  border: 1px solid #333;
-  filter: brightness(0.4);
-}
 
 .hero-overlay {
   position: absolute;
