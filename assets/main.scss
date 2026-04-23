@@ -498,11 +498,19 @@ h1.post-header {
   gap: 1rem;
   margin: 2rem 0;
 }
+
 .gallery-item img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
   display: block;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    opacity: 0.85;
+    transform: scale(1.02);
+  }
 }
 
 // ─── Gallery trigger cards ───────────────────────────────────────────────────
