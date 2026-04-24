@@ -61,6 +61,7 @@ a:hover { color: #fff !important; }
   text-align: center;
   padding: 110px 20px 90px;
   align-items: center;
+  
 // ─── Hero Title ──────────────────────────────────────────────────────────────────
   h1 {
     font-family: 'JetBrains Mono', monospace;
@@ -261,7 +262,7 @@ h1.post-title, h1.post-header {
   overflow-x: auto;
   overflow-y: visible;
   gap: 24px;
-  padding: 14px 6px 22px;
+  padding: 14px 6px 18px;
   margin: 1.5rem 0 3rem;
   scroll-snap-type: x mandatory;
 }
@@ -368,7 +369,7 @@ h1.post-title, h1.post-header {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: .78rem;
+  font-size: .9rem;
   margin: 10px 0 4px;
   color: #f3f3f3;
 }
