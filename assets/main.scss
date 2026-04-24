@@ -1,6 +1,6 @@
 ---
 ---
-
+// ─── Global ───────────────────────────────────────────────────────────────────
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -288,10 +288,7 @@ h1.post-title, h1.post-header {
   z-index: 1;
 }
 
-/* =========================================================
-    GRADIENT GLOW BORDER (HOVER)
-========================================================= */
-
+// ─── Gradient Glow Border (Hover) ───────────────────────────────────────────────────────────────────
 .project-card::before {
   content: "";
   position: absolute;
@@ -327,17 +324,18 @@ h1.post-title, h1.post-header {
   opacity: 1;
 }
 
-/* subtle lift */
+// ─── Subtle Lift ───────────────────────────────────────────────────────────────────
 .project-card:hover {
   transform: translateY(-6px);
 }
 
-/* glow animation */
+// ─── Glow Animation ───────────────────────────────────────────────────────────────────
 @keyframes borderGlow {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
 
 // ─── Project Card Tags ──────────────────────────────────────────────────────
 .project-tags {
@@ -497,7 +495,7 @@ h1.post-title, h1.post-header {
   position: relative;
 }
 
-/* reuse SAME glow system */
+// ─── Glow System ───────────────────────────────────────────────────────────────────
 .project-gallery-grid .project-card::before {
   content: "";
   position: absolute;
@@ -537,7 +535,7 @@ h1.post-title, h1.post-header {
   transform: translateY(-4px);
 }
 
-/* smaller images for grid view */
+// ─── Smaller Images For Grid View ───────────────────────────────────────────────────────────────────
 .project-gallery-grid .project-img {
   height: 120px;
   border-radius: 6px;
@@ -554,6 +552,7 @@ h1.post-title, h1.post-header {
   justify-content: center;
 }
 
+// ─── Lightbox Active Image Display ───────────────────────────────────────────────────────────────────
 .lightbox.active {
   display: flex;
 }
@@ -625,6 +624,7 @@ h1.post-title, h1.post-header {
   padding: 60px 20px;
 }
 
+// ─── About Name Header ───────────────────────────────────────────────────────────────────
 .about-name {
   font-size: 2.5rem;
   color: #7aa2f7;
@@ -633,6 +633,7 @@ h1.post-title, h1.post-header {
   margin-bottom: 8px;
 }
 
+// ─── About Tagline Under Name ───────────────────────────────────────────────────────────────────
 .about-tagline {
   color: #555;
   font-size: 0.8rem;
@@ -641,20 +642,21 @@ h1.post-title, h1.post-header {
   margin-bottom: 40px;
 }
 
+// ─── About Page Body Text───────────────────────────────────────────────────────────────────
 .about-bio p {
   color: #ccc;
   line-height: 1.9;
   margin-bottom: 20px;
 }
 
-// ─── Contact ─────────────────────────────────────────────────────────────────
-
+// ─── Contact Info Container─────────────────────────────────────────────────────────────────
 .contact-page {
   max-width: 640px;
   margin: 0 auto;
   padding: 60px 20px;
 }
 
+// ─── About ───────────────────────────────────────────────────────────────────
 .contact-title {
   font-size: 2rem;
   color: #7aa2f7;
@@ -663,6 +665,7 @@ h1.post-title, h1.post-header {
   margin-bottom: 8px;
 }
 
+// ─── Contact Sub Description ───────────────────────────────────────────────────────────────────
 .contact-sub {
   color: #555;
   font-size: 0.85rem;
@@ -670,12 +673,14 @@ h1.post-title, h1.post-header {
   margin-bottom: 48px;
 }
 
+// ─── Contact Source and Links Container ───────────────────────────────────────────────────────────────────
 .contact-links {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
+// ─── Contact Individual Info Flex Container ───────────────────────────────────────────────────────────────────
 .contact-item {
   display: flex;
   justify-content: space-between;
@@ -690,6 +695,7 @@ h1.post-title, h1.post-header {
   }
 }
 
+// ─── Contact Left Source List ───────────────────────────────────────────────────────────────────
 .contact-label {
   color: #555;
   font-size: 0.75rem;
@@ -697,6 +703,7 @@ h1.post-title, h1.post-header {
   text-transform: uppercase;
 }
 
+// ─── Contact Right Information ───────────────────────────────────────────────────────────────────
 .contact-value {
   color: #7aa2f7;
   font-size: 0.9rem;
