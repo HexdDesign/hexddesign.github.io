@@ -56,12 +56,12 @@ a:hover { color: #fff !important; }
   color: #7aa2f7 !important;
 }
 
-// ─── Hero ────────────────────────────────────────────────────────────────────
+// ─── Hero Container ──────────────────────────────────────────────────────────────
 .hero {
   text-align: center;
   padding: 110px 20px 90px;
   align-items: center;
-
+// ─── Hero Title ──────────────────────────────────────────────────────────────────
   h1 {
     font-family: 'JetBrains Mono', monospace;
     font-size: 3rem;
@@ -73,6 +73,7 @@ a:hover { color: #fff !important; }
   }
 }
 
+// ─── Hero Sub Header ──────────────────────────────────────────────────────────────
 .hero-sub { 
   font-family: 'JetBrains Mono', monospace; 
   font-weight: 400; 
@@ -82,6 +83,7 @@ a:hover { color: #fff !important; }
   color: #999; 
 }
 
+// ─── Hero Button to Project Page ──────────────────────────────────────────────────
 .hero-btn {
   border: 1px solid #7aa2f7; 
   padding: 10px 28px; 
@@ -120,6 +122,7 @@ a:hover { color: #fff !important; }
   padding: 20px;
 }
 
+// ─── Hero Image ───────────────────────────────────────────────────────────────
 .hero-img-icon {
   display: inline-block;
   width: 400px;
@@ -186,7 +189,7 @@ a:hover { color: #fff !important; }
   }
 }
 
-// ─── Footer ──────────────────────────────────────────────────────────────────
+// ─── Footer Inner Container ─────────────────────────────────────────────────
 .footer-inner {
   display: flex;
   justify-content: space-between;
@@ -198,12 +201,14 @@ a:hover { color: #fff !important; }
   gap: 12px;
 }
 
+// ─── Footer Copyright and Name ────────────────────────────────────────────────
 .footer-copy {
   color: #555;
   font-size: 0.75rem;
   letter-spacing: 1px;
 }
 
+// ─── Footer Social Links  ─────────────────────────────────────────────────────
 .footer-links {
   display: flex;
   gap: 24px;
@@ -227,11 +232,13 @@ code, pre, .tag, .contact-label, .section-title, .hero-btn {
   font-family: 'JetBrains Mono', monospace !important;
 }
 
+// ─── Page Titles ──────────────────────────────────────────────────────────────
 h1.post-title, h1.post-header { 
   font-family: 'JetBrains Mono', monospace !important; 
   text-transform: uppercase;
 }
 
+// ─── Project Headers  ────────────────────────────────────────────────────────
 .section-title {
   color: #fff;
   font-size: .78rem;
@@ -248,8 +255,7 @@ h1.post-title, h1.post-header {
   border: 1px dashed #444;
 }
 
-// ─── Project grid (horizontal scroll) ───────────────────────────────────────
-
+// ─── Project flex grid (horizontal scroll) ───────────────────────────────────────
 .project-grid {
   display: flex;
   overflow-x: auto;
@@ -260,10 +266,12 @@ h1.post-title, h1.post-header {
   scroll-snap-type: x mandatory;
 }
 
+// ─── Project Card Scrollbar ────────────────────────────────────────────────────
 .project-grid::-webkit-scrollbar {
   height: 4px;
 }
 
+// ─── Project Cards ──────────────────────────────────────────────────────────────
 .project-card {
   flex: 0 0 260px;
   position: relative;
@@ -281,7 +289,7 @@ h1.post-title, h1.post-header {
 }
 
 /* =========================================================
-   ✨ GRADIENT GLOW BORDER (HOVER)
+    GRADIENT GLOW BORDER (HOVER)
 ========================================================= */
 
 .project-card::before {
@@ -331,7 +339,7 @@ h1.post-title, h1.post-header {
   100% { background-position: 0% 50%; }
 }
 
-
+// ─── Project Card Tags ──────────────────────────────────────────────────────
 .project-tags {
   display: flex;
   gap: 8px;
@@ -348,6 +356,7 @@ h1.post-title, h1.post-header {
   letter-spacing: 1px;
 }
 
+// ─── Card Image ──────────────────────────────────────────────────────────────
 .project-img {
   height: 150px;
   border-radius: 8px;
@@ -355,25 +364,28 @@ h1.post-title, h1.post-header {
   background-position: center;
 }
 
+// ─── Card Titles ──────────────────────────────────────────────────────────────
 .project-card h3 {
   font-size: 1rem;
   margin: 10px 0 4px;
   color: #f3f3f3;
 }
 
+// ─── Card Description ────────────────────────────────────────────────────────
 .project-card p {
   font-size: 0.82rem;
   color: #7d7d7d;
   line-height: 1.4;
 }
-// ─── Project page ────────────────────────────────────────────────────────────
 
+// ─── Project page ────────────────────────────────────────────────────────────
 .project-page {
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
+// ─── Project Specific Category Above Title ───────────────────────────────────────────
 .project-category {
   color: #555;
   font-size: 0.75rem;
@@ -382,6 +394,7 @@ h1.post-title, h1.post-header {
   margin-bottom: 8px;
 }
 
+// ─── Project Specific Page Title ──────────────────────────────────────────────────────────────
 .project-title {
   font-size: 2.8rem;
   font-weight: 700;
@@ -389,6 +402,7 @@ h1.post-title, h1.post-header {
   margin-bottom: 8px;
 }
 
+// ─── Project Specific Page Description ──────────────────────────────────────────────────────────────
 .project-desc {
   color: #888;
   font-size: 1rem;
@@ -405,12 +419,14 @@ h1.post-title, h1.post-header {
   }
 }
 
+// ─── Project Specific Page Body Container ──────────────────────────────────────────────────────────────
 .project-body {
   color: #ccc;
   line-height: 1.8;
   margin-bottom: 48px;
 }
 
+// ─── Project Specific "Back to Projects" ──────────────────────────────────────────────────────────────
 .project-nav {
   border-top: 1px solid #333;
   padding-top: 24px;
@@ -428,8 +444,7 @@ h1.post-title, h1.post-header {
 
 
 
-// ─── Project gallery (lightbox grid) ────────────────────────────────────────
-
+// ─── Project gallery Lightbox Grid) ────────────────────────────────────────
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -543,6 +558,7 @@ h1.post-title, h1.post-header {
   display: flex;
 }
 
+// ─── Project Specific Lightbox Image Display ──────────────────────────────────────────────────────────────
 .lightbox-img {
   max-width: 80vw;
   max-height: 80vh;
@@ -551,6 +567,7 @@ h1.post-title, h1.post-header {
   border: 1px solid #333;
 }
 
+// ─── Project Specific Lightbox Navigation ──────────────────────────────────────────────────────────────
 .lightbox-close,
 .lightbox-prev,
 .lightbox-next {
@@ -569,23 +586,27 @@ h1.post-title, h1.post-header {
   }
 }
 
+// ─── Project Specific Lightbox Exit Button ──────────────────────────────────────────────────────────────
 .lightbox-close {
   top: 1.5rem;
   right: 1.5rem;
 }
 
+// ─── Project Specific Lightbox Previous Arrow ──────────────────────────────────────────────────────────────
 .lightbox-prev {
   top: 50%;
   left: 1.5rem;
   transform: translateY(-50%);
 }
 
+// ─── Project Specific Lightbox Forward Arrow ──────────────────────────────────────────────────────────────
 .lightbox-next {
   top: 50%;
   right: 1.5rem;
   transform: translateY(-50%);
 }
 
+// ─── Project Specific Lightbox Image Counter──────────────────────────────────────────────────────────────
 .lightbox-counter {
   position: fixed;
   bottom: 1.5rem;
@@ -598,7 +619,6 @@ h1.post-title, h1.post-header {
 }
 
 // ─── About ───────────────────────────────────────────────────────────────────
-
 .about-page {
   max-width: 640px;
   margin: 0 auto;
