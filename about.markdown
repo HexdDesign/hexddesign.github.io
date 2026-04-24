@@ -20,6 +20,3 @@ permalink: /about/
 
 </div>
  
-
-
-
