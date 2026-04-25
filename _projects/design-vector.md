@@ -2,7 +2,7 @@
 
 layout: project
 title: Vector
-description: Graphic Design
+description: Graphic design vector art and graphics with lossless scaling 
 category: design
 tags: [Design, Graphics, Vectors] 
 cover: /assets/images/cell.png
