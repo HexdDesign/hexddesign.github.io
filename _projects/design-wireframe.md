@@ -2,7 +2,7 @@
 
 layout: project
 title: Wireframe
-description: Graphic Design
+description: Graphic design low and high fidelity wireframes
 category: design
 tags: [Design, Graphics, Wireframe, UX, UI, Web, Mobile] 
 cover: /assets/images/wf9.png
