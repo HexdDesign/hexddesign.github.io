@@ -2,7 +2,7 @@
 
 layout: project
 title: Logo
-description: Graphic Design
+description: Graphic design logos for brands.
 category: design
 tags: [Design, Graphics, Logo, Branding] 
 cover: /assets/images/Hexd.png
