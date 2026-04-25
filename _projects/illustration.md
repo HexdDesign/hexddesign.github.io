@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Illustration
-description: Digital Illustration
+description: Digital illustrations in an anime and cartoon style
 category: illustration
 tags: [Illustration, Drawing, Sketching] 
 cover: /assets/images/17.png
