@@ -14,7 +14,8 @@ permalink: /about/
     <div class="about-bio">
         <p>✨ Amber - otherwise known online as "Dizzy"</p>
       <p>💻 Arch Linux Ricer</p>
-      <p>🎨 Lifelong Artist</p>
+      <p>🎨 Artist</p>
+      <p>♿️ Accessibility Designer</p>
       </div>
     </div>
   </div>
