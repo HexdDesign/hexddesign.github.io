@@ -55,16 +55,6 @@ permalink: /about/
       </div>
       <div class="skill-item">
         <div class="skill-header">
-          <span class="skill-icon"><i class="fa-solid fa-bezier-curve"></i></span>
-          <span class="skill-name">Arch Linux / Ricing</span>
-          <span class="skill-level-label">Advanced</span>
-        </div>
-        <div class="skill-bar-track">
-          <div class="skill-bar-fill" data-width="75"></div>
-        </div>
-      </div>
-      <div class="skill-item">
-        <div class="skill-header">
           <span class="skill-icon"><i class="fa-solid fa-layer-group"></i></span>
           <span class="skill-name">Branding &amp; Identity</span>
           <span class="skill-level-label">Advanced</span>
