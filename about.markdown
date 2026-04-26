@@ -23,11 +23,21 @@ permalink: /about/
       <div class="skill-item">
         <div class="skill-header">
           <span class="skill-icon"><i class="fa-solid fa-pen-nib"></i></span>
-          <span class="skill-name">Figma</span>
+          <span class="skill-name">Graphics Design</span>
           <span class="skill-level-label">Expert</span>
         </div>
         <div class="skill-bar-track">
           <div class="skill-bar-fill" data-width="95"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-solid fa-pen-nib"></i></span>
+          <span class="skill-name">Illustration</span>
+          <span class="skill-level-label">Expert</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="99"></div>
         </div>
       </div>
       <div class="skill-item">
@@ -43,27 +53,57 @@ permalink: /about/
       <div class="skill-item">
         <div class="skill-header">
           <span class="skill-icon"><i class="fa-solid fa-bezier-curve"></i></span>
-          <span class="skill-name">Illustrator</span>
-          <span class="skill-level-label">Intermediate</span>
-        </div>
-        <div class="skill-bar-track">
-          <div class="skill-bar-fill" data-width="60"></div>
-        </div>
-      </div>
-      <div class="skill-item">
-        <div class="skill-header">
-          <span class="skill-icon"><i class="fa-brands fa-linux"></i></span>
           <span class="skill-name">Arch Linux / Ricing</span>
-          <span class="skill-level-label">Expert</span>
+          <span class="skill-level-label">Advanced</span>
         </div>
         <div class="skill-bar-track">
-          <div class="skill-bar-fill" data-width="92"></div>
+          <div class="skill-bar-fill" data-width="75"></div>
         </div>
       </div>
       <div class="skill-item">
         <div class="skill-header">
           <span class="skill-icon"><i class="fa-solid fa-layer-group"></i></span>
           <span class="skill-name">Branding &amp; Identity</span>
+          <span class="skill-level-label">Advanced</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="78"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-brands fa-linux"></i></span>
+          <span class="skill-name">Adobe Illustrator</span>
+          <span class="skill-level-label">Expert</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="90"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-brands fa-linux"></i></span>
+          <span class="skill-name">Adobe inDesign</span>
+          <span class="skill-level-label">Expert</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="90"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-brands fa-linux"></i></span>
+          <span class="skill-name">Adobe Photoshop</span>
+          <span class="skill-level-label">Advanced</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="70"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-solid fa-layer-group"></i></span>
+          <span class="skill-name">Figma</span>
           <span class="skill-level-label">Advanced</span>
         </div>
         <div class="skill-bar-track">
