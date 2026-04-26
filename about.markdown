@@ -100,12 +100,12 @@ permalink: /about/
           <span class="skill-level-label">Advanced</span>
         </div>
         <div class="skill-bar-track">
-          <div class="skill-bar-fill" data-width="78"></div> <br><br>
+          <div class="skill-bar-fill" data-width="78"></div> 
         </div>
       </div>
     </div>
 </div>
-
+<br><br><br><br>
 <script>
 document.querySelectorAll('.skill-bar-fill').forEach(function(el) {
   el.style.width = el.getAttribute('data-width') + '%';
