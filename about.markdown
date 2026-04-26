@@ -17,6 +17,69 @@ permalink: /about/
     <br>
     <p>They split their time between graphic design work and Arch Linux ricing, treating both as the same discipline: everything should look exactly the way it's supposed to.</p>
   </div>
+  <div class="skills-section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-solid fa-pen-nib"></i></span>
+          <span class="skill-name">Figma</span>
+          <span class="skill-level-label">Expert</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="95"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-brands fa-html5"></i></span>
+          <span class="skill-name">HTML / CSS</span>
+          <span class="skill-level-label">Advanced</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="80"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-solid fa-bezier-curve"></i></span>
+          <span class="skill-name">Illustrator</span>
+          <span class="skill-level-label">Intermediate</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="60"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-brands fa-linux"></i></span>
+          <span class="skill-name">Arch Linux / Ricing</span>
+          <span class="skill-level-label">Expert</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="92"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-icon"><i class="fa-solid fa-layer-group"></i></span>
+          <span class="skill-name">Branding &amp; Identity</span>
+          <span class="skill-level-label">Advanced</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill" data-width="78"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
+
+<script>
+document.querySelectorAll('.skill-bar-fill').forEach(function(el) {
+  el.style.width = el.getAttribute('data-width') + '%';
+});
+</script>
+
+
  
