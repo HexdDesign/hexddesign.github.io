@@ -656,6 +656,34 @@ h1.post-title, h1.post-header {
   margin-bottom: 20px;
 }
 
+.about-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.about-avatar {
+  width: 220px;
+  flex-shrink: 0;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+}
+
+.about-intro {
+  flex: 1;
+}
+
+@media (max-width: 560px) {
+  .about-top {
+    flex-direction: column;
+  }
+  .about-avatar {
+    width: 100%;
+  }
+}
+
+
 // ─── Contact Info Container─────────────────────────────────────────────────────────────────
 .contact-page {
   max-width: 640px;
