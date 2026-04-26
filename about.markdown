@@ -10,7 +10,7 @@ permalink: /about/
   <p class="about-tagline">Graphic Designer & Front-End Creative</p>
 
   <div class="about-top">
-    <img src="/assets/images/Hexd.png" class="about-avatar"/>
+    <img src="/assets/images/bio1.png" alt="bio" class="about-avatar"/>
     <div class="about-bio">
         <p>✨ Amber - otherwise known online as "Dizzy"</p>
       <p>💻 Arch Linux Ricer</p>
