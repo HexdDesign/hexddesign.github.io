@@ -167,7 +167,20 @@ data-images='[
 <div class="gallery-data" 
 data-name="celty" 
 data-images='[
-"/assets/images/celty-1.jpg","/assets/images/celty-2.jpg"
+"/assets/images/i3/CeltyDesktop.png",
+"/assets/images/i3/CeltyRofi.png",
+"/assets/images/i3/CeltyRofiOpen.png",
+"/assets/images/i3/CeltyVolume.png",
+"/assets/images/i3/CeltyThunar.png",
+"/assets/images/i3/CeltyNetwork.png",
+"/assets/images/i3/CeltyKitty.png",
+"/assets/images/i3/CeltyGeany.png",
+"/assets/images/i3/CeltyFirefox.png",
+"/assets/images/i3/CeltyEwwSidebar.png",
+"/assets/images/i3/CeltyDunst.png",
+"/assets/images/i3/CeltyBrightness.png",
+"/assets/images/i3/CeltyBluetooth.png",
+"/assets/images/i3/CeltyCalcurse.png",
 ]'></div>
 
 <div class="gallery-data"
