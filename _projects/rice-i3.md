@@ -186,7 +186,21 @@ data-images='[
 <div class="gallery-data"
 data-name="chill" 
 data-images='[
-"/assets/images/chill-1.jpg","/assets/images/chill-2.jpg"
+"/assets/images/i3/ChillDesktop.png",
+"/assets/images/i3/ChillRofi.png",
+"/assets/images/i3/ChillRofiOpen.png",
+"/assets/images/i3/ChillVolume.png",
+"/assets/images/i3/ChillThunar.png",
+"/assets/images/i3/ChillNetwork.png",
+"/assets/images/i3/ChillKitty.png",
+"/assets/images/i3/ChillGeany.png",
+"/assets/images/i3/ChillFirefox.png",
+"/assets/images/i3/ChillEwwSidebar.png",
+"/assets/images/i3/ChillDunst.png",
+"/assets/images/i3/ChillBtopE.png",
+"/assets/images/i3/ChillBrightness.png",
+"/assets/images/i3/ChillBluetooth.png",
+"/assets/images/i3/ChillCalcurse.png"
 ]'></div>
 
 <div class="gallery-data"
