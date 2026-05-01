@@ -223,7 +223,7 @@ data-images='[
 "/assets/images/i3/EvangelionDunst.png",
 "/assets/images/i3/EvangelionBtopE.png",
 "/assets/images/i3/EvangelionBrightness.png",
-"/assets/images/i3/EvangelionBluetooth.png",
+"/assets/images/i3/EvangelionBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
