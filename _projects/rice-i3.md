@@ -180,7 +180,7 @@ data-images='[
 "/assets/images/i3/CeltyDunst.png",
 "/assets/images/i3/CeltyBrightness.png",
 "/assets/images/i3/CeltyBluetooth.png",
-"/assets/images/i3/CeltyCalcurse.png",
+"/assets/images/i3/CeltyCalcurse.png"
 ]'></div>
 
 <div class="gallery-data"
