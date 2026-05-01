@@ -150,7 +150,18 @@ data-images='[
 <div class="gallery-data" 
 data-name="brs" 
 data-images='[
-"/assets/images/brs-1.jpg","/assets/images/brs-2.jpg"
+"/assets/images/i3/BRShooterDesktop.png",
+"/assets/images/i3/BRShooterRofi.png",
+"/assets/images/i3/BRShooterRofiOpen.png",
+"/assets/images/i3/BRShooterVolume.png",
+"/assets/images/i3/BRShooterThunar.png",
+"/assets/images/i3/BRShooterNetwork.png",
+"/assets/images/i3/BRShooterKitty.png",
+"/assets/images/i3/BRShooterGeany.png",
+"/assets/images/i3/BRShooterEwwSidebar.png",
+"/assets/images/i3/BRShooterDunst.png",
+"/assets/images/i3/BRShooterBrightness.png",
+"/assets/images/i3/BRShooterBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
