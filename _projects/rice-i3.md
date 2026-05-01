@@ -211,12 +211,19 @@ data-images='[
 data-name="evangelion" 
 data-images='[
 "/assets/images/i3/EvangelionDesktop.png",
-"/assets/images/i3/EvangelionBtopE.png",
-"/assets/images/i3/EvangelionDunst.png",
-"/assets/images/i3/EvangelionKity4.png",
 "/assets/images/i3/EvangelionRofi1.png",
 "/assets/images/i3/EvangelionRofiOpen.png",
-"/assets/images/i3/EvangelionewwSidebar.png"
+"/assets/images/i3/EvangelionVolume.png",
+"/assets/images/i3/EvangelionThunar.png",
+"/assets/images/i3/EvangelionNetworks.png",
+"/assets/images/i3/EvangelionKitty4.png",
+"/assets/images/i3/EvangelionGeany.png",
+"/assets/images/i3/EvangelionFirefox.png",
+"/assets/images/i3/EvangelionewwSidebar.png",
+"/assets/images/i3/EvangelionDunst.png",
+"/assets/images/i3/EvangelionBtopE.png",
+"/assets/images/i3/EvangelionBrightness.png",
+"/assets/images/i3/EvangelionBluetooth.png",
 ]'></div>
 
 <div class="gallery-data" 
