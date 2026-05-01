@@ -215,7 +215,7 @@ data-images='[
 "/assets/images/i3/EvangelionRofiOpen.png",
 "/assets/images/i3/EvangelionVolume.png",
 "/assets/images/i3/EvangelionThunar.png",
-"/assets/images/i3/EvangelionNetworks.png",
+"/assets/images/i3/EvangelionNetwork.png",
 "/assets/images/i3/EvangelionKitty4.png",
 "/assets/images/i3/EvangelionGeany.png",
 "/assets/images/i3/EvangelionFirefox.png",
