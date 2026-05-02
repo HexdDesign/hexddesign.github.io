@@ -266,8 +266,20 @@ data-images='[
 <div class="gallery-data" 
 data-name="dracula" 
 data-images='[
-"/assets/images/dracula-1.jpg",
-"/assets/images/dracula-2.jpg"
+"/assets/images/i3/DraculaDesktop.png",
+"/assets/images/i3/DraculaRofi.png",
+"/assets/images/i3/DraculaRofiOpen.png",
+"/assets/images/i3/DraculaVolume.png",
+"/assets/images/i3/DraculaThunar.png",
+"/assets/images/i3/DraculaNetwork.png",
+"/assets/images/i3/DraculaKitty.png",
+"/assets/images/i3/DraculaGeany.png",
+"/assets/images/i3/DraculaFirefox.png",
+"/assets/images/i3/DraculaEwwSidebar.png",
+"/assets/images/i3/DraculaDunst.png",
+"/assets/images/i3/DraculaBrightness.png",
+"/assets/images/i3/DraculaBluetooth.png",
+"/assets/images/i3/DraculaCalcurse.png"
 ]'></div>
 
 <div class="gallery-data"
