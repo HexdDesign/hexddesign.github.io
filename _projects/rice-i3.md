@@ -229,8 +229,20 @@ data-images='[
 <div class="gallery-data" 
 data-name="devilman" 
 data-images='[
-"/assets/images/devilman-1.jpg",
-"/assets/images/devilman-2.jpg"
+"/assets/images/i3/DevilmanDesktop.png",
+"/assets/images/i3/DevilmanRofi.png",
+"/assets/images/i3/DevilmanRofiOpen.png",
+"/assets/images/i3/DevilmanVolume.png",
+"/assets/images/i3/DevilmanThunar.png",
+"/assets/images/i3/DevilmanNetwork.png",
+"/assets/images/i3/DevilmanKitty.png",
+"/assets/images/i3/DevilmanGeany.png",
+"/assets/images/i3/DevilmanFirefox.png",
+"/assets/images/i3/DevilmanEwwSidebar.png",
+"/assets/images/i3/DevilmanDunst.png",
+"/assets/images/i3/DevilmanBrightness.png",
+"/assets/images/i3/DevilmanBluetooth.png",
+"/assets/images/i3/DevilmanCalcurse.png"
 ]'></div>
 
 <div class="gallery-data" 
