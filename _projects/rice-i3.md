@@ -248,8 +248,19 @@ data-images='[
 <div class="gallery-data" 
 data-name="digital-circus" 
 data-images='[
-"/assets/images/digital-circus-1.jpg",
-"/assets/images/digital-circus-2.jpg"
+"/assets/images/i3/DigitalCircusDesktop.png",
+"/assets/images/i3/DigitalCircusRofi.png",
+"/assets/images/i3/DigitalCircusRofiOpen.png",
+"/assets/images/i3/DigitalCircusVolume.png",
+"/assets/images/i3/DigitalCircusThunar.png",
+"/assets/images/i3/DigitalCircusNetwork.png",
+"/assets/images/i3/DigitalCircusKitty.png",
+"/assets/images/i3/DigitalCircusGeany.png",
+"/assets/images/i3/DigitalCircusFirefox.png",
+"/assets/images/i3/DigitalCircusEwwSidebar.png",
+"/assets/images/i3/DigitalCircusDunst.png",
+"/assets/images/i3/DigitalCircusBrightness.png",
+"/assets/images/i3/DigitalCircusBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
