@@ -209,8 +209,21 @@ data-images='[
 <div class="gallery-data"
 data-name="crimson" 
 data-images='[
-"/assets/images/crimson-1.jpg",
-"/assets/images/crimson-2.jpg"
+"/assets/images/i3/CrimsonDesktop.png",
+"/assets/images/i3/CrimsonRofi.png",
+"/assets/images/i3/CrimsonRofiOpen.png",
+"/assets/images/i3/CrimsonVolume.png",
+"/assets/images/i3/CrimsonThunar.png",
+"/assets/images/i3/CrimsonNetwork.png",
+"/assets/images/i3/CrimsonKitty.png",
+"/assets/images/i3/CrimsonGeany.png",
+"/assets/images/i3/CrimsonFirefox.png",
+"/assets/images/i3/CrimsonEwwSidebar.png",
+"/assets/images/i3/CrimsonDunst.png",
+"/assets/images/i3/CrimsonBtopE.png",
+"/assets/images/i3/CrimsonBrightness.png",
+"/assets/images/i3/CrimsonBluetooth.png",
+"/assets/images/i3/CrimsonCalcurse.png"
 ]'></div>
 
 <div class="gallery-data" 
