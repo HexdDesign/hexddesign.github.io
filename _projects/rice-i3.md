@@ -158,8 +158,10 @@ data-images='[
 "/assets/images/i3/BRShooterNetwork.png",
 "/assets/images/i3/BRShooterKitty.png",
 "/assets/images/i3/BRShooterGeany.png",
+"/assets/images/i3/BRShooterFirefox.png",
 "/assets/images/i3/BRShooterEwwSidebar.png",
 "/assets/images/i3/BRShooterDunst.png",
+"/assets/images/i3/BRShooterBtop.png",
 "/assets/images/i3/BRShooterBrightness.png",
 "/assets/images/i3/BRShooterBluetooth.png"
 ]'></div>
