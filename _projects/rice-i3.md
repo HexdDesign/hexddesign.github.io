@@ -254,7 +254,7 @@ data-images='[
 "/assets/images/i3/DigitalCircusVolume.png",
 "/assets/images/i3/DigitalCircusThunar.png",
 "/assets/images/i3/DigitalCircusNetwork.png",
-"/assets/images/i3/DigitalCircusKitty.png",
+"/assets/images/i3/DigitalCircusKittytest.png",
 "/assets/images/i3/DigitalCircusGeany.png",
 "/assets/images/i3/DigitalCircusFirefox.png",
 "/assets/images/i3/DigitalCircusEwwSidebar.png",
