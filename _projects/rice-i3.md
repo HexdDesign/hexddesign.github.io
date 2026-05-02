@@ -266,7 +266,7 @@ data-images='[
 <div class="gallery-data" 
 data-name="dracula" 
 data-images='[
-"/assets/images/i3/DraculaDesktop.png",
+"/assets/images/i3/DraculaDesktop1.png",
 "/assets/images/i3/DraculaRofi.png",
 "/assets/images/i3/DraculaRofiOpen.png",
 "/assets/images/i3/DraculaVolume.png",
