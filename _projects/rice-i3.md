@@ -292,8 +292,19 @@ data-images='[
 <div class="gallery-data" 
 data-name="ena" 
 data-images='[
-"/assets/images/ena-1.jpg",
-"/assets/images/ena-2.jpg"
+"/assets/images/i3/EnaDesktop.png",
+"/assets/images/i3/EnaRofi.png",
+"/assets/images/i3/EnaRofiOpen.png",
+"/assets/images/i3/EnaVolume.png",
+"/assets/images/i3/EnaThunar.png",
+"/assets/images/i3/EnaNetwork.png",
+"/assets/images/i3/EnaKitty.png",
+"/assets/images/i3/EnaGeany.png",
+"/assets/images/i3/EnaFirefox.png",
+"/assets/images/i3/EnaEwwSidebar.png",
+"/assets/images/i3/EnaDunst.png",
+"/assets/images/i3/EnaBrightness.png",
+"/assets/images/i3/EnaBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
