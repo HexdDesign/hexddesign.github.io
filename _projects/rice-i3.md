@@ -329,50 +329,127 @@ data-images='[
 <div class="gallery-data" 
 data-name="msi" 
 data-images='[
-"/assets/images/msi-1.jpg",
-"/assets/images/msi-2.jpg"
+"/assets/images/i3/MsiWhiteDesktop.png",
+"/assets/images/i3/MsiWhiteRofi.png",
+"/assets/images/i3/MsiWhiteRofiOpen.png",
+"/assets/images/i3/MsiWhiteVolume.png",
+"/assets/images/i3/MsiWhiteThunar.png",
+"/assets/images/i3/MsiWhiteNetwork.png",
+"/assets/images/i3/MsiWhiteKitty.png",
+"/assets/images/i3/MsiWhiteGeany.png",
+"/assets/images/i3/MsiWhiteFirefox.png",
+"/assets/images/i3/MsiWhiteEwwSidebar.png",
+"/assets/images/i3/MsiWhiteDunst.png",
+"/assets/images/i3/MsiWhiteBrightness.png",
+"/assets/images/i3/MsiWhiteBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
 data-name="n7-day" 
 data-images='[
-"/assets/images/n7-day-1.jpg",
-"/assets/images/n7-day-2.jpg"
+"/assets/images/i3/N7DayDesktop.png",
+"/assets/images/i3/N7DayRofi.png",
+"/assets/images/i3/N7DayRofiOpen.png",
+"/assets/images/i3/N7DayVolume.png",
+"/assets/images/i3/N7DayThunar.png",
+"/assets/images/i3/N7DayNetwork.png",
+"/assets/images/i3/N7DayKitty.png",
+"/assets/images/i3/N7DayGeany.png",
+"/assets/images/i3/N7DayFirefox.png",
+"/assets/images/i3/N7DayEwwSidebar.png",
+"/assets/images/i3/N7DayDunst.png",
+"/assets/images/i3/N7DayBrightness.png",
+"/assets/images/i3/N7DayBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
 data-name="neon-violet" 
 data-images='[
-"/assets/images/neon-violet-1.jpg",
-"/assets/images/neon-violet-2.jpg"
+"/assets/images/i3/NeonVioletDesktop.png",
+"/assets/images/i3/NeonVioletRofi.png",
+"/assets/images/i3/NeonVioletRofiOpen.png",
+"/assets/images/i3/NeonVioletVolume.png",
+"/assets/images/i3/NeonVioletThunar.png",
+"/assets/images/i3/NeonVioletNetwork.png",
+"/assets/images/i3/NeonVioletKitty.png",
+"/assets/images/i3/NeonVioletGeany.png",
+"/assets/images/i3/NeonVioletFirefox.png",
+"/assets/images/i3/NeonVioletEwwSidebar.png",
+"/assets/images/i3/NeonVioletDunst.png",
+"/assets/images/i3/NeonVioletBrightness.png",
+"/assets/images/i3/NeonVioletBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
 data-name="nord" 
 data-images='[
-"/assets/images/nord-1.jpg",
-"/assets/images/nord-2.jpg"
+"/assets/images/i3/NordDesktop.png",
+"/assets/images/i3/NordRofi.png",
+"/assets/images/i3/NordRofiOpen.png",
+"/assets/images/i3/NordVolume.png",
+"/assets/images/i3/NordThunar.png",
+"/assets/images/i3/NordNetwork.png",
+"/assets/images/i3/NordKitty.png",
+"/assets/images/i3/NordGeany.png",
+"/assets/images/i3/NordFirefox.png",
+"/assets/images/i3/NordEwwSidebar.png",
+"/assets/images/i3/NordDunst.png",
+"/assets/images/i3/NordBrightness.png",
+"/assets/images/i3/NordBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
 data-name="project-hail-mary" 
 data-images='[
-"/assets/images/project-hail-mary-1.jpg",
-"/assets/images/project-hail-mary-2.jpg"
+"/assets/images/i3/ProjectHailMaryDesktop.png",
+"/assets/images/i3/ProjectHailMaryRofi.png",
+"/assets/images/i3/ProjectHailMaryRofiOpen.png",
+"/assets/images/i3/ProjectHailMaryVolume.png",
+"/assets/images/i3/ProjectHailMaryThunar.png",
+"/assets/images/i3/ProjectHailMaryNetwork.png",
+"/assets/images/i3/ProjectHailMaryKitty.png",
+"/assets/images/i3/ProjectHailMaryGeany.png",
+"/assets/images/i3/ProjectHailMaryFirefox.png",
+"/assets/images/i3/ProjectHailMaryEwwSidebar.png",
+"/assets/images/i3/ProjectHailMaryDunstE.png",
+"/assets/images/i3/ProjectHailMaryBrightness.png",
+"/assets/images/i3/ProjectHailMaryBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
 data-name="purple-plastic" 
 data-images='[
-"/assets/images/purple-plastic-1.jpg",
-"/assets/images/purple-plastic-2.jpg"
+"/assets/images/i3/PurplePlasticDesktop.png",
+"/assets/images/i3/PurplePlasticRofi.png",
+"/assets/images/i3/PurplePlasticRofiOpen.png",
+"/assets/images/i3/PurplePlasticVolume.png",
+"/assets/images/i3/PurplePlasticThunar.png",
+"/assets/images/i3/PurplePlasticNetwork.png",
+"/assets/images/i3/PurplePlasticKitty.png",
+"/assets/images/i3/PurplePlasticGeany.png",
+"/assets/images/i3/PurplePlasticFirefox.png",
+"/assets/images/i3/PurplePlasticEwwSidebar.png",
+"/assets/images/i3/PurplePlasticDunstE.png",
+"/assets/images/i3/PurplePlasticBrightness.png",
+"/assets/images/i3/PurplePlasticBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
 data-name="sakura-hunter"
 data-images='[
-"/assets/images/sakura-hunter-1.jpg",
-"/assets/images/sakura-hunter-2.jpg"
+"/assets/images/i3/MonsterHunterDesktop.png",
+"/assets/images/i3/MonsterHunterRofi.png",
+"/assets/images/i3/MonsterHunterRofiOpen.png",
+"/assets/images/i3/MonsterHunterVolume.png",
+"/assets/images/i3/MonsterHunterThunar.png",
+"/assets/images/i3/MonsterHunterNetwork.png",
+"/assets/images/i3/MonsterHunterKitty.png",
+"/assets/images/i3/MonsterHunterGeany.png",
+"/assets/images/i3/MonsterHunterFirefox.png",
+"/assets/images/i3/MonsterHunterEwwSidebar.png",
+"/assets/images/i3/MonsterHunterDunstE.png",
+"/assets/images/i3/MonsterHunterBrightness.png",
+"/assets/images/i3/MonsterHunterBluetooth.png"
 ]'></div>
 
 <!-- Lightbox -->
