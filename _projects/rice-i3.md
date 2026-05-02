@@ -180,6 +180,7 @@ data-images='[
 "/assets/images/i3/CeltyFirefox.png",
 "/assets/images/i3/CeltyEwwSidebar.png",
 "/assets/images/i3/CeltyDunst.png",
+"/assets/images/i3/CeltyBtop.png",
 "/assets/images/i3/CeltyBrightness.png",
 "/assets/images/i3/CeltyBluetooth.png",
 "/assets/images/i3/CeltyCalcurse.png"
