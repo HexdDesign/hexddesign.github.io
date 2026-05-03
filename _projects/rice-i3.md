@@ -282,6 +282,7 @@ data-images='[
 "/assets/images/i3/DraculaFirefox.png",
 "/assets/images/i3/DraculaEwwSidebar.png",
 "/assets/images/i3/DraculaDunst.png",
+"/assets/images/i3/DraculaBtopE.png",
 "/assets/images/i3/DraculaBrightness.png",
 "/assets/images/i3/DraculaBluetooth.png",
 "/assets/images/i3/DraculaCalcurse.png"
@@ -345,6 +346,7 @@ data-images='[
 "/assets/images/i3/MsiWhiteFirefox.png",
 "/assets/images/i3/MsiWhiteEwwSidebar.png",
 "/assets/images/i3/MsiWhiteDunst.png",
+"/assets/images/i3/MsiWhiteBtopE.png",  
 "/assets/images/i3/MsiWhiteBrightness.png",
 "/assets/images/i3/MsiWhiteBluetooth.png"
 ]'></div>
@@ -363,6 +365,7 @@ data-images='[
 "/assets/images/i3/N7dayFirefox.png",
 "/assets/images/i3/N7dayEwwSidebar.png",
 "/assets/images/i3/N7dayDunst.png",
+"/assets/images/i3/N7dayBtop.png",
 "/assets/images/i3/N7dayBrightness.png",
 "/assets/images/i3/N7dayBluetooth.png"
 ]'></div>
@@ -436,6 +439,7 @@ data-images='[
 "/assets/images/i3/PurplePlasticFirefox.png",
 "/assets/images/i3/PurplePlasticEwwSidebar.png",
 "/assets/images/i3/PurplePlasticDunstE.png",
+"/assets/images/i3/PurplePlasticBtopE.png",
 "/assets/images/i3/PurplePlasticBrightness.png",
 "/assets/images/i3/PurplePlasticBluetooth.png"
 ]'></div>
@@ -452,8 +456,8 @@ data-images='[
 "/assets/images/i3/MonsterHunterKitty.png",
 "/assets/images/i3/MonsterHunterGeany.png",
 "/assets/images/i3/MonsterHunterFirefox.png",
-"/assets/images/i3/MonsterHunterEwwSidebar.png",
-"/assets/images/i3/MonsterHunterDunstE.png",
+"/assets/images/i3/MonsterHunterSidebar.png",
+"/assets/images/i3/MonsterHunterDunst.png",
 "/assets/images/i3/MonsterHunterBrightness.png",
 "/assets/images/i3/MonsterHunterBluetooth.png"
 ]'></div>
