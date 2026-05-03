@@ -352,37 +352,37 @@ data-images='[
 <div class="gallery-data" 
 data-name="n7-day" 
 data-images='[
-"/assets/images/i3/N7DayDesktop.png",
-"/assets/images/i3/N7DayRofi.png",
-"/assets/images/i3/N7DayRofiOpen.png",
-"/assets/images/i3/N7DayVolume.png",
-"/assets/images/i3/N7DayThunar.png",
-"/assets/images/i3/N7DayNetwork.png",
-"/assets/images/i3/N7DayKitty.png",
-"/assets/images/i3/N7DayGeany.png",
-"/assets/images/i3/N7DayFirefox.png",
-"/assets/images/i3/N7DayEwwSidebar.png",
-"/assets/images/i3/N7DayDunst.png",
-"/assets/images/i3/N7DayBrightness.png",
-"/assets/images/i3/N7DayBluetooth.png"
+"/assets/images/i3/N7dayDesktop.png",
+"/assets/images/i3/N7dayRofi.png",
+"/assets/images/i3/N7dayRofiOpen.png",
+"/assets/images/i3/N7dayVolume.png",
+"/assets/images/i3/N7dayThunar.png",
+"/assets/images/i3/N7dayNetwork.png",
+"/assets/images/i3/N7dayKitty.png",
+"/assets/images/i3/N7dayGeany.png",
+"/assets/images/i3/N7dayFirefox.png",
+"/assets/images/i3/N7dayEwwSidebar.png",
+"/assets/images/i3/N7dayDunst.png",
+"/assets/images/i3/N7dayBrightness.png",
+"/assets/images/i3/N7dayBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
 data-name="neon-violet" 
 data-images='[
-"/assets/images/i3/NeonVioletDesktop.png",
-"/assets/images/i3/NeonVioletRofi.png",
-"/assets/images/i3/NeonVioletRofiOpen.png",
-"/assets/images/i3/NeonVioletVolume.png",
-"/assets/images/i3/NeonVioletThunar.png",
-"/assets/images/i3/NeonVioletNetwork.png",
-"/assets/images/i3/NeonVioletKitty.png",
-"/assets/images/i3/NeonVioletGeany.png",
-"/assets/images/i3/NeonVioletFirefox.png",
-"/assets/images/i3/NeonVioletEwwSidebar.png",
-"/assets/images/i3/NeonVioletDunst.png",
-"/assets/images/i3/NeonVioletBrightness.png",
-"/assets/images/i3/NeonVioletBluetooth.png"
+"/assets/images/i3/NeonvioletDesktop.png",
+"/assets/images/i3/NeonvioletRofi.png",
+"/assets/images/i3/NeonvioletRofiOpen.png",
+"/assets/images/i3/NeonvioletVolume.png",
+"/assets/images/i3/NeonvioletThunar.png",
+"/assets/images/i3/NeonvioletNetwork.png",
+"/assets/images/i3/NeonvioletKitty.png",
+"/assets/images/i3/NeonvioletGeany.png",
+"/assets/images/i3/NeonvioletFirefox.png",
+"/assets/images/i3/NeonvioletEwwSidebar.png",
+"/assets/images/i3/NeonvioletDunst.png",
+"/assets/images/i3/NeonvioletBrightness.png",
+"/assets/images/i3/NeonvioletBluetooth.png"
 ]'></div>
 
 <div class="gallery-data" 
