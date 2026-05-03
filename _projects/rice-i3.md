@@ -1,12 +1,17 @@
 ---
 layout: project
 title: i3 Themes
-description: Includes Archcraft Linux and i3 Windows Manager, Polybar, Rofi, Eww, GTK, Thunar, Kitty, Neofetch, Geany, Calcurse, Btop, Dunst, Picom, Feh, Starship, i3Lock Color, and Firefox. 
+description: Click any theme card to browse screenshots in a gallery.
 category: rice
 tags: [linux, coding, programming, ricing] 
 cover: /assets/images/themescroll3.gif
 ---
 
+<p class="project-intro">
+  Includes Archcraft Linux and i3 Windows Manager, Polybar, Rofi, Eww, GTK, Thunar, Kitty, Neofetch, Geany, Calcurse, Btop, Dunst, Picom, Feh, Starship, i3Lock Color, and Firefox. 
+  <br> 
+  Click to browse repo: 
+</p>
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="arch-rain">
     <div class="project-img" style="background-image: url('/assets/images/i3/ArchrainDesktop.png')"></div>
