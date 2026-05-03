@@ -416,7 +416,8 @@ data-images='[
 "/assets/images/i3/ProjectHailMaryGeany.png",
 "/assets/images/i3/ProjectHailMaryFirefox.png",
 "/assets/images/i3/ProjectHailMaryEwwSidebar.png",
-"/assets/images/i3/ProjectHailMaryDunstE.png",
+"/assets/images/i3/ProjectHailMaryDunst.png",
+"/assets/images/i3/ProjectHailMaryBtopE.png",
 "/assets/images/i3/ProjectHailMaryBrightness.png",
 "/assets/images/i3/ProjectHailMaryBluetooth.png"
 ]'></div>
