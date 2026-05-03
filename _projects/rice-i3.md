@@ -1,7 +1,7 @@
 ---
 layout: project
 title: i3 Themes
-description: Click any theme card to browse screenshots in a gallery.
+description: Click any theme card to browse screenshots of each theme in a gallery.
 category: rice
 tags: [linux, coding, programming, ricing] 
 cover: /assets/images/themescroll3.gif
@@ -10,7 +10,7 @@ cover: /assets/images/themescroll3.gif
 <p class="project-intro">
   Includes Archcraft Linux and i3 Windows Manager, Polybar, Rofi, Eww, GTK, Thunar, Kitty, Neofetch, Geany, Calcurse, Btop, Dunst, Picom, Feh, Starship, i3Lock Color, and Firefox. 
   <br> 
-  <a href="https://github.com/HexdDesign/i3-Theme-Switcher" target="_blank">Click to browse my Github repo</a>.
+  <a href="https://github.com/HexdDesign/i3-Theme-Switcher" target="_blank">Click to browse my Github repo.</a><br><br>
 </p>
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="arch-rain">
