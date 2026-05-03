@@ -389,6 +389,14 @@ h1.post-title, h1.post-header {
   padding: 40px 20px;
 }
 
+.project-intro {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: var(--text-muted, #aaa); 
+  line-height: 1.7;
+}
+
 // ─── Project Specific Category Above Title ───────────────────────────────────────────
 .project-category {
   color: #555;
