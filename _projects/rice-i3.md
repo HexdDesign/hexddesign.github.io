@@ -10,7 +10,7 @@ cover: /assets/images/themescroll3.gif
 <p class="project-intro">
   Includes Archcraft Linux and i3 Windows Manager, Polybar, Rofi, Eww, GTK, Thunar, Kitty, Neofetch, Geany, Calcurse, Btop, Dunst, Picom, Feh, Starship, i3Lock Color, and Firefox. 
   <br> 
-  Click to browse repo: 
+  <a href="https://github.com/HexdDesign/i3-Theme-Switcher" target="_blank">Click to browse my Github repo</a>.
 </p>
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="arch-rain">
