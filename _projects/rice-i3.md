@@ -458,6 +458,7 @@ data-images='[
 "/assets/images/i3/MonsterHunterFirefox.png",
 "/assets/images/i3/MonsterHunterSidebar.png",
 "/assets/images/i3/MonsterHunterDunst.png",
+"/assets/images/i3/SakuraHunterBtopE.png",
 "/assets/images/i3/MonsterHunterBrightness.png",
 "/assets/images/i3/MonsterHunterBluetooth.png"
 ]'></div>
