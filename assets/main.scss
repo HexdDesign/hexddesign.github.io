@@ -752,62 +752,38 @@ h1.post-header {
 // Contact Page
 // ─────────────────────────────────────────────────────────────
 
-.contact-header {
-  margin-bottom: 40px;
+.contact-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 90px 20px;
 }
 
 .contact-kicker {
   font-family: 'JetBrains Mono', monospace;
-  color: #00b1ff;
   font-size: 0.72rem;
   letter-spacing: 3px;
   text-transform: uppercase;
+  color: #00b1ff;
   margin-bottom: 18px;
 }
 
 .contact-title {
-  font-size: clamp(2.2rem, 5vw, 3.5rem);
-  line-height: 1.1;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1;
   margin-bottom: 18px;
+  color: #f3f3f3;
 }
 
 .contact-sub {
-  max-width: 620px;
+  color: #666;
   line-height: 1.8;
-  color: #888;
-}
-
-.contact-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-
-  margin-bottom: 42px;
-
-  background: #141414;
-  border: 1px solid #242424;
-
-  padding: 10px 16px;
-  border-radius: 999px;
-
-  font-size: 0.78rem;
-  letter-spacing: 1px;
-  color: #bbb;
-}
-
-.status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #00ff95;
-
-  box-shadow: 0 0 10px rgba(0, 255, 149, 0.5);
+  margin-bottom: 60px;
+  max-width: 500px;
 }
 
 .contact-links {
   display: flex;
   flex-direction: column;
-  gap: 14px;
 }
 
 .contact-item {
@@ -815,73 +791,48 @@ h1.post-header {
   justify-content: space-between;
   align-items: center;
 
-  gap: 20px;
+  padding: 24px 0;
 
-  background: #151515;
-  border: 1px solid #242424;
-
-  border-radius: 18px;
-
-  padding: 22px 24px;
+  border-bottom: 1px solid #1c1c1c;
 
   transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    background 0.2s ease;
+    padding-left 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .contact-item:hover {
-  transform: translateY(-3px);
-  border-color: #00b1ff;
-  background: #181818;
-}
-
-.contact-left {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+  padding-left: 8px;
+  border-color: #2f4f80;
 }
 
 .contact-label {
-  color: #7aa2f7;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 0.72rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-}
-
-.contact-desc {
-  color: #777;
-  font-size: 0.82rem;
-  line-height: 1.6;
+  color: #555;
 }
 
 .contact-value {
-  color: #f3f3f3;
-  font-size: 0.9rem;
-  text-align: right;
+  color: #a8c1ff;
+  font-size: 0.92rem;
+  transition: color 0.2s ease;
 }
 
-.contact-footer-note {
-  margin-top: 50px;
-  padding-top: 30px;
-  border-top: 1px solid #1f1f1f;
+.contact-item:hover .contact-value {
+  color: #ffffff;
 }
 
-.contact-footer-note p {
-  color: #666;
-  line-height: 1.8;
-  max-width: 600px;
-}
-
-@media (max-width: 760px) {
+@media (max-width: 640px) {
 
   .contact-item {
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
   }
 
-  .contact-value {
-    text-align: left;
+  .contact-title {
+    line-height: 1.1;
   }
 }
 
