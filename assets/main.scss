@@ -844,8 +844,8 @@ h1.post-header {
 }
 
 .social-btn {
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
 
   display: flex;
   align-items: center;
@@ -870,15 +870,19 @@ h1.post-header {
 }
 
 .social-btn img {
-  width: 16px;
-  height: 16px;
+  width: 26px;
+  height: 26px;
 
-  opacity: 0.6;
-  transition: opacity 0.2s ease;
+  opacity: 0.72;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
 }
 
 .social-btn:hover img {
   opacity: 1;
+  transform: scale(1.08);
 }
 // ─────────────────────────────────────────────────────────────
 // Responsive
