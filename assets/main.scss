@@ -838,39 +838,47 @@ h1.post-header {
 }
 .contact-socials {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  gap: 14px;
 
   margin-top: 42px;
 }
 
 .social-btn {
-  font-family: 'JetBrains Mono', monospace;
+  width: 42px;
+  height: 42px;
 
-  font-size: 0.7rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-
-  color: #666;
-
-  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   border: 1px solid #222;
-  border-radius: 999px;
+  border-radius: 50%;
 
   background: #141414;
 
   transition:
     border-color 0.2s ease,
-    color 0.2s ease,
-    transform 0.2s ease;
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
 .social-btn:hover {
-  color: #fff;
   border-color: #00b1ff;
+  background: #181818;
 
   transform: translateY(-2px);
+}
+
+.social-btn img {
+  width: 16px;
+  height: 16px;
+
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.social-btn:hover img {
+  opacity: 1;
 }
 // ─────────────────────────────────────────────────────────────
 // Responsive
