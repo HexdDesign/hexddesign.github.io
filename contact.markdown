@@ -6,8 +6,6 @@ permalink: /contact/
 
 <div class="contact-page">
 
-  <p class="contact-kicker">CONTACT</p>
-
   <h1 class="contact-title">
     Get In Touch
   </h1>
