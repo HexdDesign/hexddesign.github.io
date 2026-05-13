@@ -38,18 +38,6 @@ permalink: /contact/
       </div>
       <span class="contact-arrow">↗</span>
     </a>
-    <a href="https://instagram.com/hexddesign"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="contact-item">
-      <div class="contact-info">
-        <span class="contact-label">Instagram</span>
-        <span class="contact-value">
-          @hexddesign
-        </span>
-      </div>
-      <span class="contact-arrow">↗</span>
-    </a>
     <a href="https://www.linkedin.com/in/ambersweet/"
        target="_blank"
        rel="noopener noreferrer"
@@ -58,6 +46,18 @@ permalink: /contact/
         <span class="contact-label">LinkedIn</span>
         <span class="contact-value">
           Amber Sweet
+        </span>
+      </div>
+      <span class="contact-arrow">↗</span>
+    </a>
+    <a href="https://instagram.com/hexddesign"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="contact-item">
+      <div class="contact-info">
+        <span class="contact-label">Instagram</span>
+        <span class="contact-value">
+          @hexddesign
         </span>
       </div>
       <span class="contact-arrow">↗</span>
