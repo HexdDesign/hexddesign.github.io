@@ -12,10 +12,10 @@ permalink: /about/
   <div class="about-top">
     <img src="/assets/images/Biop.png" alt="bio" class="about-avatar"/>
     <div class="about-bio">
-        <p>✨ Amber - otherwise known online as "Dizzy"</p>
-      <p>💻 Arch Linux Ricer</p>
-      <p>🎨 Artist</p>
-      <p>♿️ Accessibility Designer</p>
+      <p> <b>Hello There -  </b></p>
+      <p> My name is Amber, or otherwise known online as Dizzy.</p>
+      <p> I am a digital artist and creative front-end developer.</p>
+      <p> Accessibility Designer</p>
       </div>
     </div>
   </div>
