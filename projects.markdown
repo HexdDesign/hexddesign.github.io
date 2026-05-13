@@ -72,5 +72,3 @@ permalink: /projects/
   {% endfor %}
 </div>
 
-
-
