@@ -9,4 +9,3 @@ layout: default
   <a href="/projects" class="hero-btn">View Projects</a>
   <br><br>
 </div>
-
