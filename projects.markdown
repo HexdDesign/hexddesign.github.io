@@ -74,5 +74,3 @@ permalink: /projects/
 
 
 
-
-
