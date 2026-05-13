@@ -836,7 +836,42 @@ h1.post-header {
     line-height: 1.1;
   }
 }
+.contact-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 
+  margin-top: 42px;
+}
+
+.social-btn {
+  font-family: 'JetBrains Mono', monospace;
+
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #666;
+
+  padding: 10px 16px;
+
+  border: 1px solid #222;
+  border-radius: 999px;
+
+  background: #141414;
+
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.social-btn:hover {
+  color: #fff;
+  border-color: #00b1ff;
+
+  transform: translateY(-2px);
+}
 // ─────────────────────────────────────────────────────────────
 // Responsive
 // ─────────────────────────────────────────────────────────────
