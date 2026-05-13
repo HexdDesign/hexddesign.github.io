@@ -12,7 +12,7 @@ permalink: /about/
         Amber <span class="about-alias">"Dizzy"</span>
       </h1>
       <p class="about-tagline">
-        Graphic Designer • Front-End Creative • Accessibility-Focused Designer
+        Graphic Designer • Front-End Creative
       </p>
     </div>
   </div>
