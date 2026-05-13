@@ -31,9 +31,8 @@ permalink: /about/
         development. I care deeply about typography, spacing, motion, and the
         subtle details that make interfaces feel polished and memorable.
       </p>
-      <p>
-        Whether I'm designing a portfolio, creating digital artwork, or ricing
-        a Linux desktop, I approach every project with curiosity and a strong
+      <p> 
+        I approach every project with curiosity and a strong
         eye for aesthetics.
       </p>
     </div>
