@@ -31,7 +31,12 @@ permalink: /contact/
       <span class="contact-label">LinkedIn</span>
       <span class="contact-value">Amber Sweet</span>
     </a>
-
+    <a href="https:app.joinhandshake.com/profiles/hexd"
+       class="contact-item"
+       target="_blank">
+      <span class="contact-label">Handshake</span>
+      <span class="contact-value">Amber Haywood</span>
+    </a>
   </div>
 
 </div>
