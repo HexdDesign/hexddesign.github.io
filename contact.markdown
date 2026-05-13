@@ -9,26 +9,21 @@ permalink: /contact/
   <div class="contact-header">
     <p class="contact-kicker">CONTACT</p>
     <h1 class="contact-title">
-      Let's Create Something Thoughtful
+      Get In Touch
     </h1>
     <p class="contact-sub">
-      I'm available for freelance design work, front-end projects,
+      Available for freelance design work, front-end projects,
       digital artwork, and creative collaborations.
     </p>
   </div>
 
-  <div class="contact-status">
-    <span class="status-dot"></span>
-    Currently open to freelance opportunities
-  </div>
-
   <div class="contact-links">
     <a href="mailto:DizzyV0id@proton.me" class="contact-item">
-      <div class="contact-left">
+      <div>
         <span class="contact-label">Email</span>
-        <span class="contact-desc">
-          Best for project inquiries and collaborations
-        </span>
+        <p class="contact-meta">
+          Project inquiries & professional contact
+        </p>
       </div>
       <span class="contact-value">
         DizzyV0id@proton.me
@@ -37,11 +32,11 @@ permalink: /contact/
     <a href="https://github.com/HexdDesign"
        class="contact-item"
        target="_blank">
-      <div class="contact-left">
+      <div>
         <span class="contact-label">GitHub</span>
-        <span class="contact-desc">
-          Front-end projects, experiments, and source code
-        </span>
+        <p class="contact-meta">
+          Front-end work & development projects
+        </p>
       </div>
       <span class="contact-value">
         @HexdDesign
@@ -50,23 +45,16 @@ permalink: /contact/
     <a href="https://www.linkedin.com/in/ambersweet/"
        class="contact-item"
        target="_blank">
-      <div class="contact-left">
+      <div>
         <span class="contact-label">LinkedIn</span>
-        <span class="contact-desc">
-          Professional experience and networking
-        </span>
+        <p class="contact-meta">
+          Professional profile & networking
+        </p>
       </div>
       <span class="contact-value">
         Amber Sweet
       </span>
     </a>
-  </div>
-
-  <div class="contact-footer-note">
-    <p>
-      Whether you have a project idea, freelance opportunity,
-      or just want to connect — feel free to reach out.
-    </p>
   </div>
 
 </div>
