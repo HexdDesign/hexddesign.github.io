@@ -31,21 +31,32 @@ permalink: /contact/
 
   <a href="https://github.com/HexdDesign"
      target="_blank"
-     class="social-btn">
-    GitHub
+     class="social-btn"
+     aria-label="Github">
+  
+   <img src="/assets/icons/github.svg"
+         alt="GitHub Icon">
   </a>
 
   <a href="https://www.linkedin.com/in/ambersweet/"
      target="_blank"
-     class="social-btn">
-    LinkedIn
+     class="social-btn"
+     aria-label="LinkedIn">
+
+  <img src="/assets/icons/linkedin.svg"
+         alt="LinkedIn Icon">
+  </a>
   </a>
 
   <a href="https://instagram.com/"
      target="_blank"
-     class="social-btn">
-    Instagram
+     class="social-btn"
+     aria-label="Instagram">
+
+   <img src="/assets/icons/instagram.svg"
+         alt="Instagram Icon">
   </a>
+
 
 </div>
 </div>
