@@ -1,3 +1,10 @@
+---
+layout: page
+title: CONTACT
+permalink: /contact/
+---
+
+<div class="contact-page">
 
   <h1 class="contact-title">
     Get In Touch
@@ -17,9 +24,7 @@
           DizzyV0id@proton.me
         </span>
       </div>
-      <span class="contact-arrow">
-        ↗
-      </span>
+      <span class="contact-arrow">↗</span>
     </a>
     <a href="https://github.com/HexdDesign"
        target="_blank"
@@ -31,9 +36,7 @@
           HexdDesign
         </span>
       </div>
-      <span class="contact-arrow">
-        ↗
-      </span>
+      <span class="contact-arrow">↗</span>
     </a>
     <a href="https://instagram.com/hexddesign"
        target="_blank"
@@ -45,9 +48,7 @@
           @hexddesign
         </span>
       </div>
-      <span class="contact-arrow">
-        ↗
-      </span>
+      <span class="contact-arrow">↗</span>
     </a>
     <a href="https://www.linkedin.com/in/ambersweet/"
        target="_blank"
@@ -59,23 +60,7 @@
           Amber Sweet
         </span>
       </div>
-      <span class="contact-arrow">
-        ↗
-      </span>
-    </a>
-    <a href="https://app.joinhandshake.com/profiles/hexd"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="contact-item">
-      <div class="contact-info">
-        <span class="contact-label">Handshake</span>
-        <span class="contact-value">
-          Hexd
-        </span>
-      </div>
-      <span class="contact-arrow">
-        ↗
-      </span>
+      <span class="contact-arrow">↗</span>
     </a>
 
   </div>
