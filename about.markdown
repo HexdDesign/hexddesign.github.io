@@ -24,13 +24,8 @@ permalink: /about/
   <div class="about-skills">
     <h2 class="section-title">Skills</h2>
     <div class="skills-grid">
-      <div class="skill-tag">Graphics Design</div>
-      <div class="skill-tag">Illustration</div>
       <div class="skill-tag">HTML / CSS</div>
-      <div class="skill-tag">Branding &amp; Identity</div>
-      <div class="skill-tag">Adobe Illustrator</div>
-      <div class="skill-tag">Adobe InDesign</div>
-      <div class="skill-tag">Adobe Photoshop</div>
+      <div class="skill-tag">Adobe Cloud</div>
       <div class="skill-tag">Figma</div>
       <div class="skill-tag">Accessibility Design</div>
     </div>
