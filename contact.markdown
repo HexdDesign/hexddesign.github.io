@@ -46,7 +46,6 @@ permalink: /contact/
   <img src="/assets/icons/linkedin.svg"
          alt="LinkedIn Icon">
   </a>
-  </a>
 
   <a href="https://instagram.com/"
      target="_blank"
