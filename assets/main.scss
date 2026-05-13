@@ -751,11 +751,11 @@ h1.post-header {
 // ─────────────────────────────────────────────────────────────
 // Contact Page
 // ─────────────────────────────────────────────────────────────
-
 .contact-page {
   position: relative;
 
-  max-width: 760px;
+  width: min(1000px, 92vw);
+
   margin: 0 auto;
   padding: 110px 20px;
 
