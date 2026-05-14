@@ -996,11 +996,12 @@ h1.post-header {
 
   width: 52px;
   height: 52px;
+}
 
-  svg {
-    width: 20px;
-    height: 20px;
-  }
+.social-btn__icon svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 .social-btn__label {
