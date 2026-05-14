@@ -59,7 +59,7 @@ permalink: /contact/
       </span>
       <span class="social-btn__label">Instagram</span>
     </a>
-    <a href="https://facebook.com/"
+    <a href="https://facebook.com/hexddesign"
        target="_blank"
        rel="noopener noreferrer"
        class="social-btn social-btn--facebook">
@@ -70,7 +70,7 @@ permalink: /contact/
       </span>
       <span class="social-btn__label">Facebook</span>
     </a>
-    <a href="https://codepen.io/"
+    <a href="https://codepen.io/hexddesign"
        target="_blank"
        rel="noopener noreferrer"
        class="social-btn social-btn--codepen">
