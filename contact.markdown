@@ -38,6 +38,11 @@ permalink: /contact/
       </div>
       <span class="contact-arrow">↗</span>
     </a>
+  </div>
+
+  <p class="contact-section-label">Social</p>
+
+  <div class="contact-links">
     <a href="https://www.linkedin.com/in/ambersweet/"
        target="_blank"
        rel="noopener noreferrer"
@@ -62,7 +67,7 @@ permalink: /contact/
       </div>
       <span class="contact-arrow">↗</span>
     </a>
-
   </div>
 
 </div>
+
