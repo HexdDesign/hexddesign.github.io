@@ -823,6 +823,23 @@ h1.post-header {
   gap: 18px;
 }
 
+.contact-section-label {
+  position: relative;
+  z-index: 1;
+
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: #00b1ff;
+
+  margin: 40px 0 18px;
+
+  padding-bottom: 12px;
+  border-bottom: 1px solid #222;
+}
+
 .contact-item {
   position: relative;
 
