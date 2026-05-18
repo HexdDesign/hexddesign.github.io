@@ -7,7 +7,6 @@ layout: default
   <br>
   <h2>DESIGN</h2>
   <p class="hero-sub">Graphic Designer | Front End Creative</p>
-  <br>
   <a href="/projects" class="hero-btn">View Projects</a>
   <br><br>
 </div>
