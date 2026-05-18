@@ -195,7 +195,7 @@ h1.post-header {
 // ─────────────────────────────────────────────────────────────
 .hero {
   text-align: center;
-  padding: 20px 20px 90px;
+  padding: 60px 20px 70px;
 
   h1 {
     font-family: 'Astro 867', sans-serif;
@@ -210,9 +210,9 @@ h1.post-header {
   
   h2 {
   font-family: 'Chilly UI', sans-serif;
-  font-size: clamp(2rem, 7vw, 4rem);
+  font-size: clamp(1.5rem, 7vw, 3rem);
   color: #5B5FEE;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   line-height: 1.1;
   margin-bottom: 40px;
