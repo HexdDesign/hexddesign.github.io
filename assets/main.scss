@@ -237,32 +237,111 @@ h1.post-header {
 }
 
 .hero-btn {
-  display: inline-block;
-
-  background: linear-gradient(
-    90deg,
-    #00aeef,
-    #8b5cf6
-  );
-
-  color: #1b1b1b;
-  border: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 
   padding: 12px 28px;
+
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  outline: none;
+  text-decoration: none;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0,174,239,0.92),
+      rgba(139,92,246,0.92)
+    );
+
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+
+  color: #1b1b1b !important;
 
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 0.8rem;
+  font-weight: 700;
+
+  box-shadow:
+    0 8px 28px rgba(0,0,0,0.35),
+    0 0 18px rgba(0,174,239,0.12),
+    0 0 28px rgba(139,92,246,0.10),
+    inset 0 1px 0 rgba(255,255,255,0.22),
+    inset 0 -1px 0 rgba(255,255,255,0.05);
 
   transition:
-    transform 0.2s ease,
-    opacity 0.2s ease;
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    filter 0.35s ease;
+}
 
-  &:hover {
-    color: #1b1b1b;
-    opacity: 0.92;
-    transform: translateY(-2px);
-  }
+/* Liquid glass border */
+.hero-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.24),
+      rgba(255,255,255,0.02)
+    );
+
+  opacity: 0.7;
+}
+
+/* Moving liquid highlight */
+.hero-btn::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -35%;
+
+  width: 45%;
+  height: 220%;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.30),
+      transparent
+    );
+
+  transform: rotate(22deg);
+  transition: transform 0.8s ease;
+  pointer-events: none;
+}
+
+/* Hover */
+.hero-btn:hover {
+  color: #1b1b1b !important;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 14px 40px rgba(0,0,0,0.45),
+    0 0 26px rgba(0,174,239,0.20),
+    0 0 36px rgba(139,92,246,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.28);
+
+  filter: brightness(1.05);
+}
+
+.hero-btn:hover::after {
+  transform: translateX(320%) rotate(22deg);
+}
+
+.hero-btn:active {
+  transform: translateY(0);
 }
 
 .hero-img-icon {
