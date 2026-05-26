@@ -95,20 +95,42 @@ h1.post-header {
   text-transform: uppercase;
 }
 
-
-// ─────────────────────────────────────────────────────────────
-// Header
-// ─────────────────────────────────────────────────────────────
-
 .site-header {
-  background: #151515;
-  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background: rgba(15, 15, 15, 0.65);
+  backdrop-filter: blur(12px) saturate(110%);
+  -webkit-backdrop-filter: blur(12px) saturate(110%);
+
+  border-bottom: 1px solid rgba(100, 100, 100, 0.15);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.02)
+    );
+
+  pointer-events: none;
+  border-radius: 0;
 }
 
 .header-inner {
+  position: relative;
+  z-index: 1;
+
   max-width: 980px;
   margin: 0 auto;
-  padding: 18px 20px;
+  padding: 16px 20px;
 
   display: flex;
   justify-content: space-between;
@@ -119,6 +141,12 @@ h1.post-header {
   display: flex;
   align-items: center;
   gap: 12px;
+
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.02);
 }
 
 .header-icon {
@@ -133,24 +161,117 @@ h1.post-header {
   text-transform: uppercase;
   color: #00aef0;
   font-weight: normal;
+
+  transition: color 0.3s ease;
+}
+
+.header-logo:hover .header-title {
+  color: #00cfff;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 32px;
 
   a {
-    color: #666;
+    position: relative;
+    font-family: 'Open Sauce', sans-serif;
+    color: #999;
     font-size: 0.75rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 
+    transition:
+      color 0.3s ease,
+      transform 0.3s ease;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+
+      background: linear-gradient(
+        90deg,
+        #00aef0,
+        #7aa2f7
+      );
+
+      transition: width 0.35s ease;
+    }
+
     &:hover {
       color: #7aa2f7;
+      transform: translateY(-2px);
+
+      &::after {
+        width: 100%;
+      }
     }
   }
 }
+
+
+// ─────────────────────────────────────────────────────────────
+// Header
+// ─────────────────────────────────────────────────────────────
+
+
+
+//.site-header {
+  //background: #151515;
+ // border-bottom: 1px solid #222;
+//}
+
+//.header-inner {
+ // max-width: 980px;
+//  margin: 0 auto;
+//  padding: 18px 20px;
+
+//  display: flex;
+//  justify-content: space-between;
+ // align-items: center;
+//}
+
+//.header-logo {
+ // display: flex;
+  //align-items: center;
+  //gap: 12px;
+//}
+
+//.header-icon {
+//  width: 34px;
+//  height: 34px;
+//}
+
+//.header-title {
+//  font-family: 'Astro 867', sans-serif;
+ // font-size: 1.1rem;
+//  letter-spacing: 3px;
+ // text-transform: uppercase;
+//  color: #00aef0;
+//  font-weight: normal;
+//}
+
+//.header-nav {
+ // display: flex;
+//  align-items: center;
+  //gap: 28px;
+
+ // a {
+  //  color: #666;
+   // font-size: 0.75rem;
+   // letter-spacing: 2px;
+  //  text-transform: uppercase;
+
+  //  &:hover {
+    // color: #7aa2f7;
+   // }
+//  }
+//}
 
 
 // ─────────────────────────────────────────────────────────────
@@ -186,6 +307,7 @@ h1.post-header {
   gap: 20px;
 
   a {
+    font-family: 'Open Sauce', sans-serif;
     color: #555;
     font-size: 0.72rem;
     letter-spacing: 2px;
@@ -217,7 +339,7 @@ h1.post-header {
   }
   
   h2 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Open Sauce', sans-serif;
   font-weight: 700;
   font-size: clamp(1.5rem, 7vw, 3rem);
   color: #5B5FEE;
@@ -229,7 +351,7 @@ h1.post-header {
 }
 
 .hero-sub {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Open Sauce', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.08em;
   color: #777;
@@ -356,6 +478,7 @@ h1.post-header {
 // ─────────────────────────────────────────────────────────────
 
 .section-title {
+  font-family: 'Open Sauce', sans-serif;
   color: #00b1ff;
   font-size: 0.95rem;
   letter-spacing: 3px;
