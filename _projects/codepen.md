@@ -4,7 +4,7 @@ title: Codepen.io
 description: My Codepen.io HTML + CSS Sandbox Projects
 category: rice
 tags: [linux, coding, programming, html, css] 
-cover: /assets/images/codepen/codependesktop.jpg
+cover: /assets/images/codepen/codependesktop01.jpg
 ---
 
 <p class="project-intro">
