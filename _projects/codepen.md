@@ -12,10 +12,16 @@ cover: /assets/images/codepen/codependesktop01.jpg
   <a href="https://codepen.io/Hexddesign" target="_blank">Click to browse my Codepen projects.</a><br><br>
 </p>
 <div class="project-gallery-grid">
-  <div class="project-card gallery-trigger" data-gallery="codepen">
+  <div class="project-card gallery-trigger" data-gallery="brand-colors">
     <div class="project-img" style="background-image: url('/assets/images/codepen/codependesktop01.jpg')"></div>
     <h3>Brand Colors</h3>
     <p>HEXD Brand Color Pallette</p>
+  </div>
+<div class="project-gallery-grid">
+  <div class="project-card gallery-trigger" data-gallery="social-buttons">
+    <div class="project-img" style="background-image: url('/assets/images/codepen/codependesktop01.jpg')"></div>
+    <h3>Social Buttons</h3>
+    <p>Social Media Buttons with Animation</p>
   </div>
 </div>
 
@@ -30,6 +36,14 @@ data-images='[
 "/assets/images/codepen/codepenmobile01.jpg",
 "/assets/images/codepen/codepenmobile02.jpg",
 "/assets/images/codepen/codepenmobile03.jpg"
+]'></div>
+
+<div class="gallery-data"
+data-name="social-buttons"
+data-images='[
+"/assets/images/codepen/codepensocialbuttons01.jpg",
+"/assets/images/codepen/codepensocialbuttons02.jpg",
+"/assets/images/codepen/codepensocialbuttons03.jpg"
 ]'></div>
 
 
