@@ -12,32 +12,24 @@ cover: /assets/images/themescroll3.gif
   <a href="https://codepen.io/Hexddesign" target="_blank">Click to browse my Codepen projects.</a><br><br>
 </p>
 <div class="project-gallery-grid">
-  <div class="project-card gallery-trigger" data-gallery="arch-rain">
-    <div class="project-img" style="background-image: url('/assets/images/i3/ArchrainDesktop.png')"></div>
-    <h3>Arch-Rain</h3>
-    <p>Arch Linux Theme with blue tones</p>
+  <div class="project-card gallery-trigger" data-gallery="codepen">
+    <div class="project-img" style="background-image: url('/assets/images/codepen/codependesktop01.jpg')"></div>
+    <h3>Brand Colors</h3>
+    <p>HEXD Brand Color Pallette</p>
   </div>
 </div>
 
 <!-- Gallery image data  -->
 
 <div class="gallery-data"
-data-name="arch-rain"
+data-name="codepen"
 data-images='[
-"/assets/images/i3/ArchrainDesktop.png",
-"/assets/images/i3/ArchrainRofi.png",
-"/assets/images/i3/ArchrainRofiOpen.png",
-"/assets/images/i3/ArchrainVolume.png",
-"/assets/images/i3/ArchrainThunar.png",
-"/assets/images/i3/ArchrainNetworks.png",
-"/assets/images/i3/ArchrainKitty.png",
-"/assets/images/i3/ArchrainGeany.png",
-"/assets/images/i3/ArchrainFirefox.png",
-"/assets/images/i3/ArchrainEwwSidebar.png",
-"/assets/images/i3/ArchrainDunst.png",
-"/assets/images/i3/ArchrainBtopE.png",
-"/assets/images/i3/ArchrainBrightness.png",
-"/assets/images/i3/ArchrainBluetooth.png"
+"/assets/images/codepen/codependesktop01.jpg",
+"/assets/images/codepen/codependesktop02.jpg",
+"/assets/images/codepen/codependesktop03.jpg",
+"/assets/images/codepen/codepenmobile01.jpg",
+"/assets/images/codepen/codepenmobile02jpg",
+"/assets/images/codepen/codepenmobile03.jpg",
 ]'>
 </div>
 
