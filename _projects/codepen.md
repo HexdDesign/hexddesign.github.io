@@ -15,13 +15,13 @@ cover: /assets/images/codepen/codependesktop01.jpg
   <div class="project-card gallery-trigger" data-gallery="brand-colors">
     <div class="project-img" style="background-image: url('/assets/images/codepen/codependesktop01.jpg')"></div>
     <h3>Brand Colors</h3>
-    <p>HEXD Brand Color Pallette</p>
-  </div>
+    <p>HEXD Brand Color Pallette. [Click here to see live deployment](https://helpful-morning-mole.codepen.app) </p>
+  </div> 
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="social-buttons">
     <div class="project-img" style="background-image: url('/assets/images/codepen/codepensocialbuttons01.jpg')"></div>
     <h3>Social Buttons</h3>
-    <p>Social Media Buttons with Animation. See live deployment: https://concise-unit-dingo.codepen.app </p>
+    <p>Social Media Buttons with Animation. [Click here to see live deployment](https://concise-unit-dingo.codepen.app) </p>
   </div>
 </div>
 
