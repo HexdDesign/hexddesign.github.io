@@ -26,7 +26,7 @@ permalink: /projects/
   {% endfor %}
 </div>
 
-<h2 class="section-title">Arch Ricing</h2>
+<h2 class="section-title">Coding and Programming</h2>
 <div class="project-grid">
   {% assign rice = site.projects | where: "category", "rice" %}
   {% for project in rice %}
