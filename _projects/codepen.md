@@ -41,9 +41,9 @@ data-images='[
 <div class="gallery-data"
 data-name="social-buttons"
 data-images='[
-"/assets/images/codepen/codepensocialbuttons01.jpg",
-"/assets/images/codepen/codepensocialbuttons02.jpg",
-"/assets/images/codepen/codepensocialbuttons03.jpg"
+"/assets/images/codepen/codepensocialbuttons01.png",
+"/assets/images/codepen/codepensocialbuttons02.png",
+"/assets/images/codepen/codepensocialbuttons03.png"
 ]'></div>
 
 
