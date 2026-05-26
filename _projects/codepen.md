@@ -28,7 +28,7 @@ data-images='[
 "/assets/images/codepen/codependesktop02.jpg",
 "/assets/images/codepen/codependesktop03.jpg",
 "/assets/images/codepen/codepenmobile01.jpg",
-"/assets/images/codepen/codepenmobile02jpg",
+"/assets/images/codepen/codepenmobile02.jpg",
 "/assets/images/codepen/codepenmobile03.jpg"
 ]'></div>
 
