@@ -3,13 +3,13 @@ layout: project
 title: Codepen.io
 description: My Codepen.io HTML + CSS Sandbox Projects
 category: rice
-tags: [linux, coding, programming, ricing] 
+tags: [linux, coding, programming, html, css] 
 cover: /assets/images/themescroll3.gif
 ---
 
 <p class="project-intro">
   My Codepen.io - A collection of my sandbox projects that are primarily HTML, CSS, and Javascript. <br> 
-  <a href="https://codepen.io/Hexddesign" target="_blank">Click to browse my Github repo.</a><br><br>
+  <a href="https://codepen.io/Hexddesign" target="_blank">Click to browse my Codepen projects.</a><br><br>
 </p>
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="arch-rain">
