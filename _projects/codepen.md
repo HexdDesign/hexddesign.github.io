@@ -22,16 +22,15 @@ cover: /assets/images/codepen/codependesktop01.jpg
 <!-- Gallery image data  -->
 
 <div class="gallery-data"
-data-name="codepen"
+data-name="brand-colors"
 data-images='[
 "/assets/images/codepen/codependesktop01.jpg",
 "/assets/images/codepen/codependesktop02.jpg",
 "/assets/images/codepen/codependesktop03.jpg",
 "/assets/images/codepen/codepenmobile01.jpg",
 "/assets/images/codepen/codepenmobile02jpg",
-"/assets/images/codepen/codepenmobile03.jpg",
-]'>
-</div>
+"/assets/images/codepen/codepenmobile03.jpg"
+]'></div>
 
 
 <!-- Lightbox -->
