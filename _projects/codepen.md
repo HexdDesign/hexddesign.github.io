@@ -19,7 +19,7 @@ cover: /assets/images/codepen/codependesktop01.jpg
   </div> 
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="social-buttons">
-    <div class="project-img" style="background-image: url('/assets/images/codepen/codepensocialbuttons01.jpg')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/codepen/codepensocialbuttons01.png')"></div>
     <h3>Social Buttons</h3>
     <p>Social Media Buttons with Animation. <a href="https://concise-unit-dingo.codepen.app" target="_blank">Click to view live deployment</a> </p>
   </div>
