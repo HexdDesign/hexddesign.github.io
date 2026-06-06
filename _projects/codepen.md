@@ -24,7 +24,14 @@ cover: /assets/images/codepen/codependesktop01.jpg
     <p>Social Media Buttons with Animation. <a href="https://concise-unit-dingo.codepen.app" target="_blank">Click to view live deployment</a> </p>
   </div>
 </div>
-
+<div class="project-gallery-grid">
+  <div class="project-card gallery-trigger" data-gallery="theme-toggle">
+    <div class="project-img" style="background-image: url('/assets/images/codepen/darktoggle.png')"></div>
+    <h3>Dark Mode / Light Mode Toggle</h3>
+    <p>Social Media Buttons with Animation. <a href="https://stupefied-leaf-alien.codepen.app" target="_blank">Click to view live deployment</a> </p>
+  </div>
+</div>
+ 
 <!-- Gallery image data  -->
 
 <div class="gallery-data"
@@ -46,6 +53,12 @@ data-images='[
 "/assets/images/codepen/codepensocialbuttons03.png"
 ]'></div>
 
+<div class="gallery-data"
+data-name="theme-toggle"
+data-images='[
+"/assets/images/codepen/darktoggle.png",
+"/assets/images/codepen/lightmode.png"
+]'></div>
 
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
