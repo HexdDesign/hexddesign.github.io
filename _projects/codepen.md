@@ -8,7 +8,7 @@ cover: /assets/images/codepen/codependesktop01.jpg
 ---
 
 <p class="project-intro">
-  My Codepen.io - A collection of my sandbox projects that are primarily HTML, CSS, and Javascript. <br> 
+  My Codepen.io - A collection of my UI component sandbox projects that are primarily HTML, CSS, Tailwind CSS, and Javascript. <br> 
   <a href="https://codepen.io/Hexddesign" target="_blank">Click to browse my Codepen projects.</a><br><br>
 </p>
 <div class="project-gallery-grid">
