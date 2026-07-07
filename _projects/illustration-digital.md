@@ -17,7 +17,7 @@ cover: /assets/images/17.png
     <p>Misc Digital Illustrations - such as my own character work, sketches, and digital paintings. </p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="fan-art">
-    <div class="project-img" style="background-image: url('/assets/images/i3/BlueyellowDesktop.png')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/fanart/IMG_1024.png')"></div>
     <h3>Fan-Art</h3>
     <p>All of my digital fan art work. </p>
   </div>
@@ -51,6 +51,26 @@ data-images='[
 <div class="gallery-data"
 data-name="fan-art"
 data-images='[
+  "assets/images/fanart/IMG_1035.png",
+  "assets/images/fanart/IMG_1034.png",
+  "assets/images/fanart/IMG_1032.png",
+  "assets/images/fanart/IMG_1031.png",
+  "assets/images/fanart/IMG_1029.png",
+  "assets/images/fanart/IMG_1027.png",
+  "assets/images/fanart/IMG_1026.png",
+  "assets/images/fanart/IMG_1024.png",
+  "assets/images/fanart/IMG_1022.png",
+  "assets/images/fanart/IMG_1020.png",
+  "assets/images/fanart/IMG_1018.png",
+  "assets/images/fanart/IMG_1017.png",
+  "assets/images/fanart/IMG_1016.png",
+  "assets/images/fanart/IMG_1015.png",
+  "assets/images/fanart/IMG_1014.png",
+  "assets/images/fanart/IMG_1013.png",
+  "assets/images/fanart/IMG_1011.png",
+  "assets/images/fanart/IMG_1008.png",
+  "assets/images/fanart/IMG_1007.png",
+  "assets/images/fanart/IMG_1005.png"
 ]'>
 </div>
 
