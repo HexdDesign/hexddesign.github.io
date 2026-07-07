@@ -19,7 +19,7 @@ cover: /assets/images/17.png
   <div class="project-card gallery-trigger" data-gallery="fan-art">
     <div class="project-img" style="background-image: url('/assets/images/fanart/IMG_1024.png')"></div>
     <h3>Fan-Art</h3>
-    <p>All of my digital fan art work. </p>
+    <p>All of my digital fan art work for "The Amazing Digital Circus". </p>
   </div>
 </div>
 
