@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Illustration
+title: Digital
 description: Digital illustrations
 category: illustration
 tags: [Illustration, Drawing, Sketching, Digital] 
