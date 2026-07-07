@@ -1,14 +1,14 @@
 ---
 layout: project
 title: Illustration
-description: Digital illustrations in an anime and cartoon style
+description: Digital illustrations
 category: illustration
-tags: [Illustration, Drawing, Sketching] 
+tags: [Illustration, Drawing, Sketching, Digital] 
 cover: /assets/images/17.png
 ---
 
 <p class="project-intro">
-  Includes all my illustrations, a mix of both traditional and digital works. 
+  Includes all my digital illustrations.
 </p>
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="digital-illustrations">
@@ -19,7 +19,7 @@ cover: /assets/images/17.png
   <div class="project-card gallery-trigger" data-gallery="fan-art">
     <div class="project-img" style="background-image: url('/assets/images/i3/BlueyellowDesktop.png')"></div>
     <h3>Fan-Art</h3>
-    <p>All of my fan art work, a mix of both traditional and digital. </p>
+    <p>All of my digital fan art work. </p>
   </div>
 </div>
 
