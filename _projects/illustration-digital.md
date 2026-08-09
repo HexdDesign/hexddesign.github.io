@@ -70,7 +70,34 @@ data-images='[
   "/assets/images/fanart/IMG_1011.png",
   "/assets/images/fanart/IMG_1008.png",
   "/assets/images/fanart/IMG_1007.png",
-  "/assets/images/fanart/IMG_1005.png"
+  "/assets/images/fanart/IMG_1005.png",
+  "/assets/images/fanart/Jax20.jpg",
+  "/assets/images/fanart/Jax21.jpg",
+  "/assets/images/fanart/YandereJax.jpg",
+  "/assets/images/fanart/Jax22.jpg",
+  "/assets/images/fanart/Jax23.jpg",
+  "/assets/images/fanart/Jax24.jpg",
+  "/assets/images/fanart/Jax25.jpg",
+  "/assets/images/fanart/Jax26.jpg",
+  "/assets/images/fanart/Jax27.jpg",
+  "/assets/images/fanart/Jax28.jpg",
+  "/assets/images/fanart/Jax29.jpg",
+  "/assets/images/fanart/Jax30.jpg"
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
 ]'>
 </div>
 
