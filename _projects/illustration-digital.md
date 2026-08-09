@@ -17,10 +17,11 @@ cover: /assets/images/17.png
     <p>Misc Digital Illustrations - such as my own character work, sketches, and digital paintings. </p>
   </div>
   <div class="project-card gallery-trigger" data-gallery="fan-art">
-    <div class="project-img" style="background-image: url('/assets/images/fanart/IMG_1024.png')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/fanart/YandereJax.jpg')"></div>
     <h3>Fan-Art</h3>
     <p>All of my digital fan art work for "The Amazing Digital Circus". </p>
   </div>
+  
 </div>
 
 <!-- Gallery image data  -->
