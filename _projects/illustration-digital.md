@@ -8,7 +8,7 @@ cover: /assets/images/17.png
 ---
 
 <p class="project-intro">
-  Includes all my digital illustrations.
+  A collection of all my digital illustrations.
 </p>
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="digital-illustrations">
