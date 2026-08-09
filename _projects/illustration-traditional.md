@@ -25,7 +25,7 @@ data-name="fan-art"
 data-images='[
   "/assets/images/traditional/Jax001.jpg, 
   "/assets/images/traditional/Jax002.jpg, 
-  "/assets/images/traditional/Jax003.jpg, 
+  "/assets/images/traditional/Jax003.jpg
 
 
 
