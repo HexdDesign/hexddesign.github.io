@@ -3,7 +3,7 @@ layout: project
 title: Niri 
 description: Click any theme card to browse screenshots of each project.
 category: rice
-tags: [linux, coding, programming, ricing] 
+tags: [linux, coding, programming, ricing, Niri] 
 cover: /assets/images/codepen/codependesktop01.jpg
 ---
 
