@@ -3,7 +3,7 @@ layout: project
 title: i3 Themes
 description: Click any theme card to browse screenshots of each theme in a gallery.
 category: rice
-tags: [linux, coding, programming, ricing] 
+tags: [linux, coding, programming, ricing, i3] 
 cover: /assets/images/themescroll3.gif
 ---
 
