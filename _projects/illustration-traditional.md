@@ -16,7 +16,6 @@ cover: /assets/images/traditional/Jax002.jpg
     <p>All of my traditional fan art work for "The Amazing Digital Circus". </p>
   </div>
   
-</div>
 
 <!-- Gallery image data  -->
 
@@ -26,10 +25,7 @@ data-images='[
   "/assets/images/traditional/Jax001.jpg, 
   "/assets/images/traditional/Jax002.jpg, 
   "/assets/images/traditional/Jax003.jpg
-
-
-
-]'>
+  ]'>
 </div>
 
 
