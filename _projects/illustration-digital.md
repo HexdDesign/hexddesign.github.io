@@ -51,26 +51,26 @@ data-images='[
 <div class="gallery-data"
 data-name="fan-art"
 data-images='[
-  "assets/images/fanart/IMG_1035.png",
-  "assets/images/fanart/IMG_1034.png",
-  "assets/images/fanart/IMG_1032.png",
-  "assets/images/fanart/IMG_1031.png",
-  "assets/images/fanart/IMG_1029.png",
-  "assets/images/fanart/IMG_1027.png",
-  "assets/images/fanart/IMG_1026.png",
-  "assets/images/fanart/IMG_1024.png",
-  "assets/images/fanart/IMG_1022.png",
-  "assets/images/fanart/IMG_1020.png",
-  "assets/images/fanart/IMG_1018.png",
-  "assets/images/fanart/IMG_1017.png",
-  "assets/images/fanart/IMG_1016.png",
-  "assets/images/fanart/IMG_1015.png",
-  "assets/images/fanart/IMG_1014.png",
-  "assets/images/fanart/IMG_1013.png",
-  "assets/images/fanart/IMG_1011.png",
-  "assets/images/fanart/IMG_1008.png",
-  "assets/images/fanart/IMG_1007.png",
-  "assets/images/fanart/IMG_1005.png"
+  "/assets/images/fanart/IMG_1035.png",
+  "/assets/images/fanart/IMG_1034.png",
+  "/assets/images/fanart/IMG_1032.png",
+  "/assets/images/fanart/IMG_1031.png",
+  "/assets/images/fanart/IMG_1029.png",
+  "/assets/images/fanart/IMG_1027.png",
+  "/assets/images/fanart/IMG_1026.png",
+  "/assets/images/fanart/IMG_1024.png",
+  "/assets/images/fanart/IMG_1022.png",
+  "/assets/images/fanart/IMG_1020.png",
+  "/assets/images/fanart/IMG_1018.png",
+  "/assets/images/fanart/IMG_1017.png",
+  "/assets/images/fanart/IMG_1016.png",
+  "/assets/images/fanart/IMG_1015.png",
+  "/assets/images/fanart/IMG_1014.png",
+  "/assets/images/fanart/IMG_1013.png",
+  "/assets/images/fanart/IMG_1011.png",
+  "/assets/images/fanart/IMG_1008.png",
+  "/assets/images/fanart/IMG_1007.png",
+  "/assets/images/fanart/IMG_1005.png"
 ]'>
 </div>
 
