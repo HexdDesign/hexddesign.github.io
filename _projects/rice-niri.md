@@ -4,7 +4,7 @@ title: Niri
 description: Click any theme card to browse screenshots of each project.
 category: rice
 tags: [linux, coding, programming, ricing, Niri] 
-cover: /assets/images/codepen/codependesktop01.jpg
+cover: /assets/images/niri/JaxKitty001.png
 ---
 
 <p class="project-intro">
@@ -12,7 +12,7 @@ cover: /assets/images/codepen/codependesktop01.jpg
 </p>
 <div class="project-gallery-grid">
   <div class="project-card gallery-trigger" data-gallery="kitty-terminal">
-    <div class="project-img" style="background-image: url('/assets/images/niri/Jax001.png')"></div>
+    <div class="project-img" style="background-image: url('/assets/images/niri/JaxKitty001.png')"></div>
     <h3>Kitty</h3>
     <p>Themes and Configurations for Kitty Terminal Emulator.</p>
   </div> 
@@ -23,7 +23,7 @@ cover: /assets/images/codepen/codependesktop01.jpg
 <div class="gallery-data"
 data-name="kitty-terminal"
 data-images='[
-"/assets/images/niri/Jax001.png"
+"/assets/images/niri/JaxKitty001.png"
 ]'></div>
 
 
