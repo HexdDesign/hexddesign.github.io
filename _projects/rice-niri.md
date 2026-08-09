@@ -3,7 +3,7 @@ layout: project
 title: Niri 
 description: Click any theme card to browse screenshots of each project.
 category: rice
-tags: [linux, coding, programming, ricing, Niri] 
+tags: [linux, coding, programming, ricing, niri] 
 cover: /assets/images/niri/JaxKitty001.png
 ---
 
