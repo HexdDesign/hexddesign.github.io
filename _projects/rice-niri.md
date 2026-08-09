@@ -9,27 +9,21 @@ cover: /assets/images/codepen/codependesktop01.jpg
 
 <p class="project-intro">
   My Rices for Niri Windows Manager. <br> 
-  <a href="https://codepen.io/Hexddesign" target="_blank">Click to browse my Niri projects.</a><br><br>
 </p>
 <div class="project-gallery-grid">
-  <div class="project-card gallery-trigger" data-gallery="brand-colors">
-    <div class="project-img" style="background-image: url('/assets/images/codepen/codependesktop01.jpg')"></div>
-    <h3>Brand Colors</h3>
-    <p>HEXD Brand Color Pallette. <a href="https://helpful-morning-mole.codepen.app" target="_blank">Click to view live deployment</a></p>
+  <div class="project-card gallery-trigger" data-gallery="kitty-terminal">
+    <div class="project-img" style="background-image: url('/assets/images/niri/Jax001.png')"></div>
+    <h3>Kitty</h3>
+    <p>Themes and Configurations for Kitty Terminal Emulator.</p>
   </div> 
 </div>
  
 <!-- Gallery image data  -->
 
 <div class="gallery-data"
-data-name="brand-colors"
+data-name="kitty-terminal"
 data-images='[
-"/assets/images/codepen/codependesktop01.jpg",
-"/assets/images/codepen/codependesktop02.jpg",
-"/assets/images/codepen/codependesktop03.jpg",
-"/assets/images/codepen/codepenmobile01.jpg",
-"/assets/images/codepen/codepenmobile02.jpg",
-"/assets/images/codepen/codepenmobile03.jpg"
+"/assets/images/niri/Jax001.png"
 ]'></div>
 
 
