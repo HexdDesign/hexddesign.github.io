@@ -11,5 +11,6 @@ images:
   - /assets/images/shapelogo.png
   - /assets/images/kat.png
   - /assets/images/VMX(1).png
+  - /assets/images/Pink and Dark Blue Y2K Creative Logo.png
 ---
 
