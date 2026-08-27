@@ -13,6 +13,7 @@ images:
   - /assets/images/panda.png
   - /assets/images/sakura.png
   - /assets/images/wand.png
+  - /assets/images/Untitled design(2).png
     
 ---
 
