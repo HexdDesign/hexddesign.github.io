@@ -10,6 +10,6 @@ images:
   - /assets/images/Hexd.png
   - /assets/images/shapelogo.png
   - /assets/images/kat.png
-    
+  - /assets/images/VMX(1).png
 ---
 
