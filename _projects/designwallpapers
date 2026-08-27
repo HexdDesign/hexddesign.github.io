@@ -1,0 +1,12 @@
+---
+
+layout: project
+title: Wallpapers
+description: Wallpapers designs for PC
+category: design
+tags: [Design, Graphics, Vectors, Wallpapers] 
+cover: /assets/images/cell.png
+images:
+  - /assets/images/bubble.png
+    
+---
