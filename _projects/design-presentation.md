@@ -9,5 +9,7 @@ cover: /assets/images/assets/Black Modern Simple Black Green Organization Flow C
 images:
   - /assets/images/assets/Black Modern Simple Black Green Organization Flow Chart Graph (3900 x 2875 px) (Billboard (Portrait))(1).png
   - /assets/images/assets/Black Modern Simple Black Green Organization Flow Chart Graph (3900 x 2875 px) (Billboard (Portrait)).png
+  - /assets/images/assets/START(1).png
+  - /assets/images/assets/START(2).png
     
 ---
