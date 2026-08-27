@@ -5,8 +5,9 @@ title: Wallpapers
 description: Wallpapers designs for PC
 category: design
 tags: [Design, Graphics, Vectors, Wallpapers] 
-cover: /assets/images/cell.png
+cover: assets/images/wallpapers/Untitled design(1).png
 images:
-  - /assets/images/bubble.png
+  - assets/images/wallpapers/Untitled design(1).png
+  - assets/images/wallpapers/Untitled design.png
     
 ---
